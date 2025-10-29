@@ -1,0 +1,711 @@
+{
+  "grade": "3",
+  "subject": "英语",
+  "version": "人教版PEP",
+  "total_knowledge_points": 30,
+  "modules": [
+    {
+      "module_id": "M1",
+      "module_name": "字母与语音",
+      "knowledge_points": [
+        {
+          "kp_id": "KP001",
+          "kp_name": "26个英文字母认读",
+          "description": "能够正确认读26个英文字母的大小写形式",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能按顺序背诵26个字母",
+            "能正确书写大小写字母",
+            "能区分易混淆字母（如b/d, p/q）"
+          ],
+          "key_content": [
+            "大写字母A-Z",
+            "小写字母a-z",
+            "字母书写规范"
+          ],
+          "common_mistakes": [
+            "字母顺序混淆",
+            "大小写混用",
+            "笔顺错误"
+          ]
+        },
+        {
+          "kp_id": "KP002",
+          "kp_name": "元音字母发音规则",
+          "description": "掌握五个元音字母a, e, i, o, u在单词中的基本发音",
+          "difficulty": "基础",
+          "importance": "重要",
+          "learning_objectives": [
+            "能识别元音字母",
+            "能读出元音字母的短音",
+            "能在简单单词中应用发音规则"
+          ],
+          "key_content": [
+            "a的发音 /æ/",
+            "e的发音 /e/",
+            "i的发音 /ɪ/",
+            "o的发音 /ɒ/",
+            "u的发音 /ʌ/"
+          ],
+          "common_mistakes": [
+            "元音发音不准确",
+            "长短音混淆"
+          ]
+        },
+        {
+          "kp_id": "KP003",
+          "kp_name": "常见字母组合发音",
+          "description": "学习常见辅音字母组合的发音规则",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "掌握ch, sh, th等组合发音",
+            "能正确拼读含字母组合的单词"
+          ],
+          "key_content": [
+            "ch /tʃ/",
+            "sh /ʃ/",
+            "th /θ/ /ð/",
+            "ck /k/"
+          ],
+          "common_mistakes": [
+            "字母组合发音分开读",
+            "th发音错误"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M2",
+      "module_name": "词汇学习",
+      "knowledge_points": [
+        {
+          "kp_id": "KP004",
+          "kp_name": "数字1-20",
+          "description": "掌握1到20的英文数字表达",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能听说读写1-20的数字",
+            "能用数字描述数量",
+            "能询问和回答数量问题"
+          ],
+          "key_content": [
+            "one到ten",
+            "eleven到twenty",
+            "How many...?句型"
+          ],
+          "common_mistakes": [
+            "thirteen/thirty混淆",
+            "teen结尾发音不清"
+          ]
+        },
+        {
+          "kp_id": "KP005",
+          "kp_name": "颜色词汇",
+          "description": "学习常见颜色的英文表达",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能说出10种以上常见颜色",
+            "能用颜色描述物品",
+            "能回答What colour is it?"
+          ],
+          "key_content": [
+            "red, blue, yellow, green",
+            "black, white, brown",
+            "pink, purple, orange"
+          ],
+          "common_mistakes": [
+            "colour拼写错误",
+            "颜色词发音不准"
+          ]
+        },
+        {
+          "kp_id": "KP006",
+          "kp_name": "身体部位词汇",
+          "description": "学习头、眼、耳、手等身体部位的英文名称",
+          "difficulty": "基础",
+          "importance": "重要",
+          "learning_objectives": [
+            "能说出10个以上身体部位名称",
+            "能指认身体部位",
+            "能用This is my...介绍"
+          ],
+          "key_content": [
+            "head, face, eye, ear, nose, mouth",
+            "hand, arm, leg, foot"
+          ],
+          "common_mistakes": [
+            "单复数混淆（foot/feet）",
+            "发音不准确"
+          ]
+        },
+        {
+          "kp_id": "KP007",
+          "kp_name": "动物词汇",
+          "description": "学习常见动物的英文名称",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能认读15种以上常见动物",
+            "能描述动物特征",
+            "能表达喜好"
+          ],
+          "key_content": [
+            "cat, dog, bird, fish, monkey",
+            "elephant, panda, tiger, bear",
+            "duck, pig, rabbit"
+          ],
+          "common_mistakes": [
+            "动物名称拼写错误",
+            "可数不可数混淆"
+          ]
+        },
+        {
+          "kp_id": "KP008",
+          "kp_name": "食物与饮料词汇",
+          "description": "学习常见食物和饮料的英文表达",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能说出20种常见食物饮料",
+            "能表达喜好与需求",
+            "能在情境中点餐"
+          ],
+          "key_content": [
+            "bread, cake, egg, rice, milk",
+            "juice, water, apple, banana",
+            "chicken, fish, ice cream"
+          ],
+          "common_mistakes": [
+            "food不可数概念",
+            "drink动词名词混淆"
+          ]
+        },
+        {
+          "kp_id": "KP009",
+          "kp_name": "家庭成员词汇",
+          "description": "学习家庭成员的英文称呼",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能介绍家庭成员",
+            "能用This is...句型",
+            "能区分称呼的使用场合"
+          ],
+          "key_content": [
+            "father/dad, mother/mum",
+            "brother, sister",
+            "grandfather, grandmother"
+          ],
+          "common_mistakes": [
+            "正式非正式称呼混用",
+            "所有格使用错误"
+          ]
+        },
+        {
+          "kp_id": "KP010",
+          "kp_name": "学习用品词汇",
+          "description": "学习常见学习用品的英文名称",
+          "difficulty": "基础",
+          "importance": "重要",
+          "learning_objectives": [
+            "能说出15种学习用品",
+            "能表达需求",
+            "能进行简单借用对话"
+          ],
+          "key_content": [
+            "pen, pencil, ruler, eraser, book",
+            "bag, pencil-case, crayon",
+            "sharpener"
+          ],
+          "common_mistakes": [
+            "pencil-case连字符遗漏",
+            "复数形式错误"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M3",
+      "module_name": "基础句型",
+      "knowledge_points": [
+        {
+          "kp_id": "KP011",
+          "kp_name": "问候与告别用语",
+          "description": "掌握日常问候和告别的基本表达",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能用多种方式问候",
+            "能根据时间选择问候语",
+            "能得体地告别"
+          ],
+          "key_content": [
+            "Hello/Hi",
+            "Good morning/afternoon",
+            "Goodbye/Bye",
+            "See you"
+          ],
+          "common_mistakes": [
+            "时间问候语使用错误",
+            "语调不当"
+          ]
+        },
+        {
+          "kp_id": "KP012",
+          "kp_name": "自我介绍句型",
+          "description": "学习介绍自己姓名、年龄等信息",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能用I'm...介绍姓名",
+            "能用I'm...years old说年龄",
+            "能介绍基本信息"
+          ],
+          "key_content": [
+            "I'm.../My name is...",
+            "I'm...years old",
+            "Nice to meet you"
+          ],
+          "common_mistakes": [
+            "be动词遗漏",
+            "years old位置错误"
+          ]
+        },
+        {
+          "kp_id": "KP013",
+          "kp_name": "指示句型This is...",
+          "description": "学习用This is...介绍人或物",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能用This is介绍他人",
+            "能用This is介绍物品",
+            "能区分This/That用法"
+          ],
+          "key_content": [
+            "This is my friend",
+            "This is a/an...",
+            "That is..."
+          ],
+          "common_mistakes": [
+            "This/That混用",
+            "be动词形式错误"
+          ]
+        },
+        {
+          "kp_id": "KP014",
+          "kp_name": "一般疑问句及回答",
+          "description": "学习Is this/that...?和Do you...?句型",
+          "difficulty": "中等",
+          "importance": "核心",
+          "learning_objectives": [
+            "能用升调提问",
+            "能用Yes/No正确回答",
+            "能区分不同疑问句类型"
+          ],
+          "key_content": [
+            "Is this/that...? Yes, it is./No, it isn't.",
+            "Do you like...? Yes, I do./No, I don't."
+          ],
+          "common_mistakes": [
+            "回答主语错误",
+            "助动词遗漏"
+          ]
+        },
+        {
+          "kp_id": "KP015",
+          "kp_name": "特殊疑问句What",
+          "description": "学习用What提问并回答",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能用What询问物品",
+            "能用What colour询问颜色",
+            "能完整回答What问句"
+          ],
+          "key_content": [
+            "What is this/that?",
+            "What colour is it?",
+            "What's your name?"
+          ],
+          "common_mistakes": [
+            "What后be动词遗漏",
+            "回答不完整"
+          ]
+        },
+        {
+          "kp_id": "KP016",
+          "kp_name": "特殊疑问句How",
+          "description": "学习用How询问方式、状态、数量",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能用How are you问候",
+            "能用How many询问数量",
+            "能用How old询问年龄"
+          ],
+          "key_content": [
+            "How are you?",
+            "How many...?",
+            "How old are you?"
+          ],
+          "common_mistakes": [
+            "How many后名词单复数",
+            "回答格式错误"
+          ]
+        },
+        {
+          "kp_id": "KP017",
+          "kp_name": "表达喜好句型",
+          "description": "学习用I like/don't like表达喜好",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能表达喜欢或不喜欢",
+            "能询问他人喜好",
+            "能给出理由"
+          ],
+          "key_content": [
+            "I like...",
+            "I don't like...",
+            "Do you like...?"
+          ],
+          "common_mistakes": [
+            "like后名词形式",
+            "don't遗漏"
+          ]
+        },
+        {
+          "kp_id": "KP018",
+          "kp_name": "祈使句",
+          "description": "学习表达命令、请求的祈使句",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能用祈使句发出指令",
+            "能用please表达礼貌请求",
+            "能理解并执行指令"
+          ],
+          "key_content": [
+            "Stand up/Sit down",
+            "Open/Close your book",
+            "Look at...",
+            "Please..."
+          ],
+          "common_mistakes": [
+            "主语不能省略",
+            "please位置错误"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M4",
+      "module_name": "基础语法",
+      "knowledge_points": [
+        {
+          "kp_id": "KP019",
+          "kp_name": "人称代词主格",
+          "description": "学习I, you, he, she, it, we, they的用法",
+          "difficulty": "中等",
+          "importance": "核心",
+          "learning_objectives": [
+            "能识别并使用人称代词",
+            "能根据人称选择代词",
+            "能进行代词替换"
+          ],
+          "key_content": [
+            "I, you, he, she, it",
+            "we, they",
+            "人称代词的位置"
+          ],
+          "common_mistakes": [
+            "he/she混用",
+            "单复数混淆"
+          ]
+        },
+        {
+          "kp_id": "KP020",
+          "kp_name": "be动词的用法",
+          "description": "掌握am, is, are的基本用法和区别",
+          "difficulty": "中等",
+          "importance": "核心",
+          "learning_objectives": [
+            "能根据主语选择be动词",
+            "能正确使用be动词缩写",
+            "能用be动词构成句子"
+          ],
+          "key_content": [
+            "I am",
+            "You/We/They are",
+            "He/She/It is",
+            "缩写形式I'm, you're等"
+          ],
+          "common_mistakes": [
+            "主谓不一致",
+            "is/are混用"
+          ]
+        },
+        {
+          "kp_id": "KP021",
+          "kp_name": "名词单复数",
+          "description": "学习名词复数的基本构成规则",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能正确添加-s/-es",
+            "能识别不规则复数",
+            "能在句子中正确使用"
+          ],
+          "key_content": [
+            "规则复数+s",
+            "以s,x,ch,sh结尾+es",
+            "不规则复数（foot-feet等）"
+          ],
+          "common_mistakes": [
+            "复数形式拼写错误",
+            "单复数混用"
+          ]
+        },
+        {
+          "kp_id": "KP022",
+          "kp_name": "冠词a/an的用法",
+          "description": "学习不定冠词a和an的使用规则",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能区分a和an的使用",
+            "能判断元音音素开头",
+            "能在句子中正确使用"
+          ],
+          "key_content": [
+            "辅音音素前用a",
+            "元音音素前用an",
+            "特殊情况（an hour等）"
+          ],
+          "common_mistakes": [
+            "根据字母判断而非音素",
+            "遗漏冠词"
+          ]
+        },
+        {
+          "kp_id": "KP023",
+          "kp_name": "形容词的基本用法",
+          "description": "学习形容词描述人或物的特征",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能用形容词描述特征",
+            "能掌握形容词位置",
+            "能使用常见形容词"
+          ],
+          "key_content": [
+            "big/small, long/short",
+            "形容词+名词",
+            "be+形容词"
+          ],
+          "common_mistakes": [
+            "形容词位置错误",
+            "形容词无复数形式概念模糊"
+          ]
+        },
+        {
+          "kp_id": "KP024",
+          "kp_name": "介词in/on/under的用法",
+          "description": "学习表示位置的基本介词",
+          "difficulty": "基础",
+          "importance": "重要",
+          "learning_objectives": [
+            "能用介词描述位置",
+            "能理解Where问句",
+            "能准确区分三个介词"
+          ],
+          "key_content": [
+            "in (在...里面)",
+            "on (在...上面)",
+            "under (在...下面)",
+            "Where is...?"
+          ],
+          "common_mistakes": [
+            "介词混用",
+            "介词遗漏"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M5",
+      "module_name": "听力技能",
+      "knowledge_points": [
+        {
+          "kp_id": "KP025",
+          "kp_name": "听辨字母与单词",
+          "description": "能听懂并辨别字母和简单单词",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能听辨26个字母",
+            "能听懂课标词汇",
+            "能根据听到的内容选择图片"
+          ],
+          "key_content": [
+            "字母听辨",
+            "单词听辨",
+            "看图听音选择"
+          ],
+          "common_mistakes": [
+            "相似音混淆",
+            "注意力不集中"
+          ]
+        },
+        {
+          "kp_id": "KP026",
+          "kp_name": "听懂简单指令",
+          "description": "能听懂课堂用语和简单指令",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能理解课堂指令",
+            "能做出相应动作",
+            "能听懂日常交际用语"
+          ],
+          "key_content": [
+            "Stand up/Sit down",
+            "Open your book",
+            "Look at...等"
+          ],
+          "common_mistakes": [
+            "指令理解偏差",
+            "反应速度慢"
+          ]
+        },
+        {
+          "kp_id": "KP027",
+          "kp_name": "听懂简单对话",
+          "description": "能听懂简短的日常对话内容",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能理解对话主旨",
+            "能捕捉关键信息",
+            "能判断对话情境"
+          ],
+          "key_content": [
+            "问候对话",
+            "介绍对话",
+            "购物对话"
+          ],
+          "common_mistakes": [
+            "只听个别词汇",
+            "忽略语境"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M6",
+      "module_name": "阅读技能",
+      "knowledge_points": [
+        {
+          "kp_id": "KP028",
+          "kp_name": "认读简单句子",
+          "description": "能认读并理解简单句子",
+          "difficulty": "基础",
+          "importance": "核心",
+          "learning_objectives": [
+            "能正确朗读句子",
+            "能理解句子意思",
+            "能识别标点符号"
+          ],
+          "key_content": [
+            "陈述句朗读",
+            "疑问句朗读",
+            "句子理解"
+          ],
+          "common_mistakes": [
+            "单词连读困难",
+            "语调不当"
+          ]
+        },
+        {
+          "kp_id": "KP029",
+          "kp_name": "理解简单短文",
+          "description": "能阅读并理解50词左右的短文",
+          "difficulty": "中等",
+          "importance": "重要",
+          "learning_objectives": [
+            "能理解短文大意",
+            "能回答简单问题",
+            "能找出关键信息"
+          ],
+          "key_content": [
+            "短文朗读",
+            "信息提取",
+            "图文匹配"
+          ],
+          "common_mistakes": [
+            "逐词阅读",
+            "理解不完整"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M7",
+      "module_name": "写作技能",
+      "knowledge_points": [
+        {
+          "kp_id": "KP030",
+          "kp_name": "规范书写单词和句子",
+          "description": "能按照规范书写英文单词和简单句子",
+          "difficulty": "中等",
+          "importance": "核心",
+          "learning_objectives": [
+            "能正确书写字母和单词",
+            "能书写简单句子",
+            "能注意大小写和标点"
+          ],
+          "key_content": [
+            "字母书写规范",
+            "单词间距",
+            "句子书写（大写字母开头，标点结尾）"
+          ],
+          "common_mistakes": [
+            "书写不规范",
+            "大小写错误",
+            "标点遗漏"
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_sequence": [
+    "M1 -> M2 -> M3 -> M4 -> M5 -> M6 -> M7"
+  ],
+  "assessment_standards": {
+    "excellent": "掌握90%以上知识点，能灵活运用",
+    "good": "掌握80%-89%知识点，基本能运用",
+    "pass": "掌握60%-79%知识点，简单情境可运用",
+    "needs_improvement": "掌握60%以下知识点，需加强练习"
+  },
+  "teaching_suggestions": [
+    "采用情境教学法，创设真实语言环境",
+    "注重听说领先，培养语音语调",
+    "运用游戏、歌曲、TPR等多样化教学方法",
+    "鼓励学生大胆开口，不怕犯错",
+    "注意词汇和句型的螺旋式复现",
+    "培养良好的书写习惯和学习习惯"
+  ],
+  "common_difficulties": [
+    "字母书写不规范",
+    "发音不准确，尤其是元音",
+    "be动词使用混淆",
+    "单复数概念不清",
+    "句子中遗漏关键词（be动词、冠词等）",
+    "不敢开口说英语"
+  ]
+}

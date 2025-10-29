@@ -1,0 +1,1180 @@
+{
+  "grade": "5",
+  "subject": "英语",
+  "version": "人教版PEP",
+  "total_points": 42,
+  "modules": [
+    {
+      "module_id": "M01",
+      "module_name": "词汇模块",
+      "description": "日常生活、学习、兴趣爱好相关词汇",
+      "knowledge_points": [
+        {
+          "kp_id": "KP001",
+          "kp_name": "日常作息词汇",
+          "description": "描述日常作息时间和活动的词汇",
+          "keywords": [
+            "get up",
+            "eat breakfast",
+            "go to school",
+            "do homework",
+            "go to bed"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握10个日常作息相关动词短语",
+            "能用这些词汇描述自己的一天"
+          ],
+          "prerequisites": [
+            "基础动词认知"
+          ],
+          "related_points": [
+            "KP011",
+            "KP021"
+          ]
+        },
+        {
+          "kp_id": "KP002",
+          "kp_name": "季节与天气词汇",
+          "description": "四季、天气状况及相关活动词汇",
+          "keywords": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter",
+            "sunny",
+            "rainy",
+            "snowy",
+            "windy"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "认读四季和常见天气词汇",
+            "能描述不同季节的特点"
+          ],
+          "prerequisites": [
+            "基本名词和形容词"
+          ],
+          "related_points": [
+            "KP003",
+            "KP012"
+          ]
+        },
+        {
+          "kp_id": "KP003",
+          "kp_name": "月份与日期词汇",
+          "description": "十二个月份及序数词表达",
+          "keywords": [
+            "January",
+            "February",
+            "March",
+            "first",
+            "second",
+            "third",
+            "date"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握12个月份的拼写",
+            "学会1-31的序数词",
+            "能表达完整日期"
+          ],
+          "prerequisites": [
+            "基数词1-100"
+          ],
+          "related_points": [
+            "KP002",
+            "KP013"
+          ]
+        },
+        {
+          "kp_id": "KP004",
+          "kp_name": "食物与饮料词汇",
+          "description": "常见食物、饮料及三餐相关词汇",
+          "keywords": [
+            "sandwich",
+            "hamburger",
+            "salad",
+            "ice cream",
+            "tea",
+            "juice",
+            "healthy",
+            "delicious"
+          ],
+          "difficulty": "基础",
+          "importance": "中",
+          "learning_objectives": [
+            "认读20个常见食物饮料单词",
+            "能表达喜好和选择"
+          ],
+          "prerequisites": [
+            "基础名词"
+          ],
+          "related_points": [
+            "KP014",
+            "KP026"
+          ]
+        },
+        {
+          "kp_id": "KP005",
+          "kp_name": "学校课程与科目",
+          "description": "学科名称及学校活动词汇",
+          "keywords": [
+            "Chinese",
+            "math",
+            "English",
+            "music",
+            "PE",
+            "art",
+            "science",
+            "computer"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握8-10个学科名称",
+            "能表达对不同科目的喜好"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "KP001",
+            "KP015"
+          ]
+        },
+        {
+          "kp_id": "KP006",
+          "kp_name": "职业与工作词汇",
+          "description": "常见职业及工作场所",
+          "keywords": [
+            "teacher",
+            "doctor",
+            "nurse",
+            "driver",
+            "farmer",
+            "cook",
+            "singer",
+            "dancer"
+          ],
+          "difficulty": "基础",
+          "importance": "中",
+          "learning_objectives": [
+            "认读15个常见职业单词",
+            "了解职业与工作地点的关系"
+          ],
+          "prerequisites": [
+            "基础名词"
+          ],
+          "related_points": [
+            "KP016",
+            "KP027"
+          ]
+        },
+        {
+          "kp_id": "KP007",
+          "kp_name": "形容词性格与外貌",
+          "description": "描述人物性格特征和外貌的形容词",
+          "keywords": [
+            "kind",
+            "strict",
+            "polite",
+            "helpful",
+            "clever",
+            "funny",
+            "tall",
+            "strong"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握20个描述性形容词",
+            "能完整描述一个人"
+          ],
+          "prerequisites": [
+            "基础形容词"
+          ],
+          "related_points": [
+            "KP017",
+            "KP028"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M02",
+      "module_name": "语法模块",
+      "description": "核心语法结构和规则",
+      "knowledge_points": [
+        {
+          "kp_id": "KP011",
+          "kp_name": "一般现在时",
+          "description": "一般现在时的构成、用法及第三人称单数",
+          "keywords": [
+            "do/does",
+            "动词原形",
+            "动词+s/es",
+            "频率副词",
+            "习惯性动作"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "理解一般现在时的用法",
+            "掌握第三人称单数动词变化规则",
+            "能正确使用频率副词"
+          ],
+          "prerequisites": [
+            "基础动词认知",
+            "人称代词"
+          ],
+          "related_points": [
+            "KP001",
+            "KP012"
+          ]
+        },
+        {
+          "kp_id": "KP012",
+          "kp_name": "现在进行时",
+          "description": "现在进行时的构成和用法",
+          "keywords": [
+            "be动词",
+            "动词ing形式",
+            "now",
+            "look",
+            "listen",
+            "正在进行"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握be+doing结构",
+            "学会动词ing形式变化规则",
+            "能描述正在发生的动作"
+          ],
+          "prerequisites": [
+            "be动词",
+            "基础动词"
+          ],
+          "related_points": [
+            "KP011",
+            "KP022"
+          ]
+        },
+        {
+          "kp_id": "KP013",
+          "kp_name": "一般过去时",
+          "description": "一般过去时的构成和用法（规则动词）",
+          "keywords": [
+            "动词过去式",
+            "ed结尾",
+            "yesterday",
+            "last",
+            "ago",
+            "过去发生的事"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "理解一般过去时的概念",
+            "掌握规则动词过去式变化",
+            "能描述过去的事情"
+          ],
+          "prerequisites": [
+            "一般现在时",
+            "时间词汇"
+          ],
+          "related_points": [
+            "KP011",
+            "KP003"
+          ]
+        },
+        {
+          "kp_id": "KP014",
+          "kp_name": "There be句型",
+          "description": "There be结构的用法和就近原则",
+          "keywords": [
+            "there is",
+            "there are",
+            "就近原则",
+            "存在",
+            "某地有某物"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握There be句型的基本结构",
+            "理解单复数的使用规则",
+            "能描述某地有什么"
+          ],
+          "prerequisites": [
+            "be动词",
+            "名词单复数"
+          ],
+          "related_points": [
+            "KP018",
+            "KP023"
+          ]
+        },
+        {
+          "kp_id": "KP015",
+          "kp_name": "情态动词can/could",
+          "description": "情态动词can表达能力和请求",
+          "keywords": [
+            "can",
+            "could",
+            "能力",
+            "请求",
+            "许可",
+            "动词原形"
+          ],
+          "difficulty": "基础",
+          "importance": "中",
+          "learning_objectives": [
+            "掌握can的基本用法",
+            "能用can表达能力和请求",
+            "理解can后接动词原形"
+          ],
+          "prerequisites": [
+            "动词原形"
+          ],
+          "related_points": [
+            "KP011",
+            "KP024"
+          ]
+        },
+        {
+          "kp_id": "KP016",
+          "kp_name": "一般将来时(will/be going to)",
+          "description": "表达将来计划和打算的句型",
+          "keywords": [
+            "will",
+            "be going to",
+            "tomorrow",
+            "next",
+            "future",
+            "计划"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "理解将来时的概念",
+            "掌握两种将来时表达方式",
+            "能描述未来计划"
+          ],
+          "prerequisites": [
+            "be动词",
+            "时间词汇"
+          ],
+          "related_points": [
+            "KP011",
+            "KP013"
+          ]
+        },
+        {
+          "kp_id": "KP017",
+          "kp_name": "形容词比较级和最高级",
+          "description": "形容词的比较级和最高级变化规则",
+          "keywords": [
+            "er",
+            "est",
+            "more",
+            "most",
+            "than",
+            "the",
+            "比较"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "掌握形容词比较级最高级变化规则",
+            "能进行人或物的比较",
+            "理解特殊变化形式"
+          ],
+          "prerequisites": [
+            "基础形容词",
+            "KP007"
+          ],
+          "related_points": [
+            "KP007",
+            "KP028"
+          ]
+        },
+        {
+          "kp_id": "KP018",
+          "kp_name": "名词单复数",
+          "description": "可数名词和不可数名词，单复数变化",
+          "keywords": [
+            "s",
+            "es",
+            "不规则复数",
+            "可数",
+            "不可数",
+            "many",
+            "much"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握名词复数规则变化",
+            "记忆常见不规则复数",
+            "区分可数和不可数名词"
+          ],
+          "prerequisites": [
+            "基础名词"
+          ],
+          "related_points": [
+            "KP014",
+            "KP019"
+          ]
+        },
+        {
+          "kp_id": "KP019",
+          "kp_name": "冠词a/an/the的用法",
+          "description": "不定冠词和定冠词的基本用法",
+          "keywords": [
+            "a",
+            "an",
+            "the",
+            "元音",
+            "特指",
+            "泛指"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "理解a和an的使用区别",
+            "掌握the的基本用法",
+            "能在句子中正确使用冠词"
+          ],
+          "prerequisites": [
+            "名词基础"
+          ],
+          "related_points": [
+            "KP018"
+          ]
+        },
+        {
+          "kp_id": "KP020",
+          "kp_name": "介词的时间和地点用法",
+          "description": "常见介词in/on/at的时间和地点用法",
+          "keywords": [
+            "in",
+            "on",
+            "at",
+            "时间介词",
+            "地点介词",
+            "固定搭配"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握in/on/at表时间的区别",
+            "掌握in/on/at表地点的区别",
+            "学会常见介词短语"
+          ],
+          "prerequisites": [
+            "时间词汇",
+            "地点词汇"
+          ],
+          "related_points": [
+            "KP003",
+            "KP014"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M03",
+      "module_name": "句型模块",
+      "description": "常用交际句型和表达方式",
+      "knowledge_points": [
+        {
+          "kp_id": "KP021",
+          "kp_name": "询问和描述日常作息",
+          "description": "What time和When询问时间的句型",
+          "keywords": [
+            "What time",
+            "When do you",
+            "at",
+            "in the morning/afternoon/evening"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "能询问他人的作息时间",
+            "能详细描述自己的一天",
+            "掌握时间表达方式"
+          ],
+          "prerequisites": [
+            "KP001",
+            "KP011"
+          ],
+          "related_points": [
+            "KP020",
+            "KP031"
+          ]
+        },
+        {
+          "kp_id": "KP022",
+          "kp_name": "询问正在做什么",
+          "description": "What are you doing句型及回答",
+          "keywords": [
+            "What are you doing",
+            "I'm doing",
+            "He/She is doing",
+            "现在进行时问答"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "能询问他人正在做什么",
+            "能回答自己正在做的事",
+            "掌握现在进行时问答"
+          ],
+          "prerequisites": [
+            "KP012"
+          ],
+          "related_points": [
+            "KP012",
+            "KP032"
+          ]
+        },
+        {
+          "kp_id": "KP023",
+          "kp_name": "询问某地有什么",
+          "description": "What's in/on/near句型及There be回答",
+          "keywords": [
+            "What's in",
+            "There is/are",
+            "Is there",
+            "Are there",
+            "地点描述"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能询问某处有什么",
+            "能用There be描述环境",
+            "掌握There be疑问句"
+          ],
+          "prerequisites": [
+            "KP014",
+            "KP020"
+          ],
+          "related_points": [
+            "KP014",
+            "KP033"
+          ]
+        },
+        {
+          "kp_id": "KP024",
+          "kp_name": "询问能力和请求许可",
+          "description": "Can you...? / Could you...?句型",
+          "keywords": [
+            "Can you",
+            "Could you",
+            "Yes, I can",
+            "Sorry, I can't",
+            "请求帮助"
+          ],
+          "difficulty": "基础",
+          "importance": "中",
+          "learning_objectives": [
+            "能询问他人能否做某事",
+            "能礼貌地请求帮助",
+            "能恰当回应请求"
+          ],
+          "prerequisites": [
+            "KP015"
+          ],
+          "related_points": [
+            "KP015",
+            "KP034"
+          ]
+        },
+        {
+          "kp_id": "KP025",
+          "kp_name": "询问喜好和原因",
+          "description": "What's your favourite...? Why do you like...?",
+          "keywords": [
+            "favourite",
+            "like best",
+            "Why",
+            "Because",
+            "原因描述"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "能询问和表达喜好",
+            "能用Because说明原因",
+            "掌握Why-Because问答"
+          ],
+          "prerequisites": [
+            "基础词汇"
+          ],
+          "related_points": [
+            "KP026",
+            "KP035"
+          ]
+        },
+        {
+          "kp_id": "KP026",
+          "kp_name": "表达喜欢和不喜欢",
+          "description": "I like/love/don't like句型及程度表达",
+          "keywords": [
+            "like",
+            "love",
+            "don't like",
+            "hate",
+            "favourite",
+            "程度副词"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "能表达对事物的喜好",
+            "掌握喜好程度的不同表达",
+            "能说明喜欢的原因"
+          ],
+          "prerequisites": [
+            "基础形容词"
+          ],
+          "related_points": [
+            "KP004",
+            "KP025"
+          ]
+        },
+        {
+          "kp_id": "KP027",
+          "kp_name": "询问职业和工作地点",
+          "description": "What does he/she do? Where does he/she work?",
+          "keywords": [
+            "What does...do",
+            "He/She is a",
+            "Where does...work",
+            "职业描述"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能询问他人职业",
+            "能描述职业和工作地点",
+            "掌握第三人称疑问句"
+          ],
+          "prerequisites": [
+            "KP006",
+            "KP011"
+          ],
+          "related_points": [
+            "KP006",
+            "KP036"
+          ]
+        },
+        {
+          "kp_id": "KP028",
+          "kp_name": "描述人物外貌和性格",
+          "description": "What's he/she like? / What does he/she look like?",
+          "keywords": [
+            "What's...like",
+            "look like",
+            "形容词描述",
+            "外貌性格"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "能询问和描述外貌",
+            "能描述性格特征",
+            "区分外貌和性格的表达"
+          ],
+          "prerequisites": [
+            "KP007",
+            "KP017"
+          ],
+          "related_points": [
+            "KP007",
+            "KP037"
+          ]
+        },
+        {
+          "kp_id": "KP029",
+          "kp_name": "提建议的句型",
+          "description": "Let's.../Shall we.../Why don't you...?",
+          "keywords": [
+            "Let's",
+            "Shall we",
+            "Why don't you",
+            "How about",
+            "建议"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能用多种方式提建议",
+            "能恰当回应建议",
+            "掌握建议句型的礼貌用法"
+          ],
+          "prerequisites": [
+            "基础句型"
+          ],
+          "related_points": [
+            "KP024",
+            "KP038"
+          ]
+        },
+        {
+          "kp_id": "KP030",
+          "kp_name": "问路和指路",
+          "description": "Where is...? How can I get to...?及方向指引",
+          "keywords": [
+            "Where is",
+            "How can I get to",
+            "turn left/right",
+            "go straight",
+            "next to"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能询问地点位置",
+            "能给他人指路",
+            "掌握方位介词和方向词"
+          ],
+          "prerequisites": [
+            "KP020",
+            "方位词汇"
+          ],
+          "related_points": [
+            "KP020",
+            "KP023"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M04",
+      "module_name": "听力模块",
+      "description": "听力理解技能训练",
+      "knowledge_points": [
+        {
+          "kp_id": "KP031",
+          "kp_name": "听懂日常对话",
+          "description": "理解日常生活场景的简单对话",
+          "keywords": [
+            "日常交际",
+            "关键信息",
+            "语境理解",
+            "对话场景"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "能听懂简单的日常对话",
+            "能捕捉关键信息",
+            "理解对话发生的场景"
+          ],
+          "prerequisites": [
+            "基础词汇量",
+            "KP001-KP007"
+          ],
+          "related_points": [
+            "KP021",
+            "KP041"
+          ]
+        },
+        {
+          "kp_id": "KP032",
+          "kp_name": "听懂时间和数字信息",
+          "description": "准确识别时间、日期、价格等数字信息",
+          "keywords": [
+            "时间",
+            "日期",
+            "数字",
+            "价格",
+            "电话号码"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "能听懂时间表达",
+            "能识别数字信息",
+            "能记录关键数据"
+          ],
+          "prerequisites": [
+            "数字词汇",
+            "KP003"
+          ],
+          "related_points": [
+            "KP003",
+            "KP021"
+          ]
+        },
+        {
+          "kp_id": "KP033",
+          "kp_name": "听懂简单指令和要求",
+          "description": "理解课堂指令、活动要求等",
+          "keywords": [
+            "指令动词",
+            "祈使句",
+            "要求",
+            "步骤"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "能听懂常见指令",
+            "能按要求完成任务",
+            "理解多步骤指令"
+          ],
+          "prerequisites": [
+            "基础动词"
+          ],
+          "related_points": [
+            "KP024",
+            "KP029"
+          ]
+        },
+        {
+          "kp_id": "KP034",
+          "kp_name": "听懂短文主旨大意",
+          "description": "理解简短故事或描述的主要内容",
+          "keywords": [
+            "主旨",
+            "大意",
+            "关键词",
+            "逻辑关系"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能抓住短文主旨",
+            "能理解事件发生顺序",
+            "能概括主要内容"
+          ],
+          "prerequisites": [
+            "一定词汇量",
+            "基础语法"
+          ],
+          "related_points": [
+            "KP038",
+            "KP042"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M05",
+      "module_name": "阅读模块",
+      "description": "阅读理解能力培养",
+      "knowledge_points": [
+        {
+          "kp_id": "KP035",
+          "kp_name": "读懂简单故事",
+          "description": "理解情节简单的英语小故事",
+          "keywords": [
+            "故事情节",
+            "人物",
+            "时间顺序",
+            "因果关系"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "能读懂简单故事",
+            "理解故事情节发展",
+            "能回答相关问题"
+          ],
+          "prerequisites": [
+            "基础词汇和语法"
+          ],
+          "related_points": [
+            "KP013",
+            "KP034"
+          ]
+        },
+        {
+          "kp_id": "KP036",
+          "kp_name": "读懂信息类文本",
+          "description": "理解通知、广告、菜单等实用文本",
+          "keywords": [
+            "信息提取",
+            "关键信息",
+            "实用文本",
+            "表格图表"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能读懂常见信息文本",
+            "能快速找到所需信息",
+            "理解文本结构"
+          ],
+          "prerequisites": [
+            "词汇积累"
+          ],
+          "related_points": [
+            "KP032",
+            "KP040"
+          ]
+        },
+        {
+          "kp_id": "KP037",
+          "kp_name": "读懂人物描述",
+          "description": "理解关于人物外貌、性格、爱好的描述",
+          "keywords": [
+            "外貌",
+            "性格",
+            "爱好",
+            "描述性文字"
+          ],
+          "difficulty": "基础",
+          "importance": "中",
+          "learning_objectives": [
+            "能读懂人物描写",
+            "能提取人物特征信息",
+            "能进行信息匹配"
+          ],
+          "prerequisites": [
+            "KP007",
+            "KP028"
+          ],
+          "related_points": [
+            "KP007",
+            "KP028"
+          ]
+        },
+        {
+          "kp_id": "KP038",
+          "kp_name": "理解文章结构",
+          "description": "识别文章的开头、发展和结尾",
+          "keywords": [
+            "段落",
+            "结构",
+            "主题句",
+            "支持句",
+            "逻辑"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能识别文章结构",
+            "理解段落关系",
+            "掌握阅读策略"
+          ],
+          "prerequisites": [
+            "一定阅读量"
+          ],
+          "related_points": [
+            "KP034",
+            "KP042"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M06",
+      "module_name": "写作模块",
+      "description": "书面表达能力培养",
+      "knowledge_points": [
+        {
+          "kp_id": "KP039",
+          "kp_name": "写简单的自我介绍",
+          "description": "用英语介绍自己的基本信息",
+          "keywords": [
+            "姓名",
+            "年龄",
+            "爱好",
+            "家庭",
+            "学校"
+          ],
+          "difficulty": "基础",
+          "importance": "高",
+          "learning_objectives": [
+            "能写5-8句自我介绍",
+            "信息完整准确",
+            "句子通顺"
+          ],
+          "prerequisites": [
+            "基础句型",
+            "KP021-KP028"
+          ],
+          "related_points": [
+            "KP028",
+            "KP040"
+          ]
+        },
+        {
+          "kp_id": "KP040",
+          "kp_name": "描写人物或事物",
+          "description": "用形容词和句型描写人或物的特征",
+          "keywords": [
+            "形容词",
+            "描述性语言",
+            "特征",
+            "细节"
+          ],
+          "difficulty": "中等",
+          "importance": "高",
+          "learning_objectives": [
+            "能写6-10句描写文字",
+            "使用多样形容词",
+            "描述有条理"
+          ],
+          "prerequisites": [
+            "KP007",
+            "KP017",
+            "KP028"
+          ],
+          "related_points": [
+            "KP007",
+            "KP037"
+          ]
+        },
+        {
+          "kp_id": "KP041",
+          "kp_name": "写简单的日记",
+          "description": "记录日常生活和感受",
+          "keywords": [
+            "日期",
+            "天气",
+            "活动",
+            "感受",
+            "时间顺序"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "能写简单英语日记",
+            "正确使用过去时",
+            "表达真实感受"
+          ],
+          "prerequisites": [
+            "KP013",
+            "KP021"
+          ],
+          "related_points": [
+            "KP013",
+            "KP021"
+          ]
+        },
+        {
+          "kp_id": "KP042",
+          "kp_name": "写邀请信或便条",
+          "description": "写简单的应用文",
+          "keywords": [
+            "格式",
+            "称呼",
+            "正文",
+            "结尾",
+            "署名"
+          ],
+          "difficulty": "中等",
+          "importance": "中",
+          "learning_objectives": [
+            "掌握书信基本格式",
+            "能写简单邀请或留言",
+            "语言得体"
+          ],
+          "prerequisites": [
+            "基础句型"
+          ],
+          "related_points": [
+            "KP029",
+            "KP036"
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_path": {
+    "sequence": [
+      "基础词汇积累（KP001-KP007）",
+      "核心语法掌握（KP011-KP020）",
+      "句型应用练习（KP021-KP030）",
+      "综合技能提升（KP031-KP042）"
+    ],
+    "key_milestones": [
+      {
+        "milestone": "词汇量达标",
+        "target": "掌握400-500个核心词汇",
+        "related_points": [
+          "KP001",
+          "KP002",
+          "KP003",
+          "KP004",
+          "KP005",
+          "KP006",
+          "KP007"
+        ]
+      },
+      {
+        "milestone": "语法基础扎实",
+        "target": "熟练运用5种基本时态",
+        "related_points": [
+          "KP011",
+          "KP012",
+          "KP013",
+          "KP016"
+        ]
+      },
+      {
+        "milestone": "交际能力提升",
+        "target": "能进行10种日常场景对话",
+        "related_points": [
+          "KP021",
+          "KP022",
+          "KP024",
+          "KP025",
+          "KP026"
+        ]
+      },
+      {
+        "milestone": "读写能力发展",
+        "target": "能读懂100词左右短文，写8-10句作文",
+        "related_points": [
+          "KP035",
+          "KP038",
+          "KP039",
+          "KP040"
+        ]
+      }
+    ]
+  },
+  "assessment_criteria": {
+    "vocabulary": {
+      "weight": 0.25,
+      "standards": "认读400-500词，熟练掌握300词"
+    },
+    "grammar": {
+      "weight": 0.25,
+      "standards": "掌握基本时态和句型，准确率70%以上"
+    },
+    "listening": {
+      "weight": 0.2,
+      "standards": "听懂简单对话和短文，捕捉关键信息"
+    },
+    "speaking": {
+      "weight": 0.15,
+      "standards": "能进行简单交流，发音基本准确"
+    },
+    "reading": {
+      "weight": 0.1,
+      "standards": "能读懂简单故事和信息文本"
+    },
+    "writing": {
+      "weight": 0.05,
+      "standards": "能写5-10句简单作文，语句基本通顺"
+    }
+  },
+  "teaching_suggestions": [
+    "注重词汇的情境化教学，在真实语境中学习单词",
+    "采用任务型教学法，通过完成任务掌握语法和句型",
+    "加强听说训练，每节课保证10-15分钟口语练习",
+    "鼓励课外阅读，每周至少读一篇英语小故事",
+    "重视写作启蒙，从仿写到创写逐步提升",
+    "利用多媒体资源，增加学习趣味性和有效性"
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "grade": "2",
+  "subject": "语文",
+  "semester": "全年",
+  "total_points": 32,
+  "modules": [
+    {
+      "module_id": "M1",
+      "module_name": "拼音与识字",
+      "description": "巩固拼音，掌握常用汉字",
+      "points": [
+        {
+          "point_id": "M1P1",
+          "point_name": "音序查字法",
+          "description": "学会用拼音音序在字典中查字",
+          "difficulty": 2,
+          "importance": 5,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M1P2"
+          ],
+          "typical_questions": [
+            "用音序查字法查\"欢\"字，先查大写字母（ ），再查音节（ ）",
+            "按音序排列下列字：花、草、树、木"
+          ],
+          "knowledge_content": "音序查字法步骤：1.确定字的音节 2.找到音节的第一个大写字母 3.在该字母下找到音节 4.根据页码找到这个字",
+          "common_mistakes": [
+            "大写字母与小写字母混淆",
+            "不会正确标注声调"
+          ],
+          "teaching_suggestions": "通过实际操作字典，反复练习查字过程"
+        },
+        {
+          "point_id": "M1P2",
+          "point_name": "部首查字法",
+          "description": "学会用部首在字典中查字",
+          "difficulty": 3,
+          "importance": 5,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M1P3"
+          ],
+          "related_points": [
+            "M1P1"
+          ],
+          "typical_questions": [
+            "\"清\"字的部首是（ ），除部首外还有（ ）画",
+            "用部首查字法查\"提\"字应查（ ）部"
+          ],
+          "knowledge_content": "部首查字法步骤：1.确定字的部首 2.数清除去部首外的笔画数 3.在检字表中找到部首和相应笔画 4.根据页码找字",
+          "common_mistakes": [
+            "部首确定错误",
+            "笔画数数错",
+            "独体字不知道查什么部首"
+          ],
+          "teaching_suggestions": "归纳常见部首，总结部首确定规律"
+        },
+        {
+          "point_id": "M1P3",
+          "point_name": "认识常用部首",
+          "description": "掌握常见的50个汉字部首及其含义",
+          "difficulty": 2,
+          "importance": 5,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M1P4",
+            "M2P1"
+          ],
+          "typical_questions": [
+            "带有\"氵\"的字一般与（ ）有关",
+            "\"跑、跳、踢\"都有足字旁，都与（ ）有关"
+          ],
+          "knowledge_content": "常见部首：氵(水)、亻(人)、口、艹(草)、木、日、月、鸟、虫、心、手、足、目、耳、火、土、金、石、衣、食等，部首表义的规律",
+          "common_mistakes": [
+            "偏旁与部首概念混淆",
+            "形近部首分不清（如氵与冫）"
+          ],
+          "teaching_suggestions": "分类教学，通过归类识字提高效率"
+        },
+        {
+          "point_id": "M1P4",
+          "point_name": "形声字识字",
+          "description": "理解形声字的构字规律，利用形旁声旁识字",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 3,
+          "prerequisites": [
+            "M1P3"
+          ],
+          "related_points": [
+            "M2P1"
+          ],
+          "typical_questions": [
+            "\"清、晴、情、请\"都是（ ）字，都有相同的声旁（ ）",
+            "根据形旁猜字义：波、浪、洋都与（ ）有关"
+          ],
+          "knowledge_content": "形声字结构：形旁表义，声旁表音。常见形声字类型：左形右声（江、河）、右形左声（功、颈）、上形下声（花、草）、下形上声（想、忠）等",
+          "common_mistakes": [
+            "声旁读音与整字读音完全相同的误解",
+            "只关注声旁不看形旁"
+          ],
+          "teaching_suggestions": "用形声字系列归类识字，提高识字效率"
+        }
+      ]
+    },
+    {
+      "module_id": "M2",
+      "module_name": "识字与写字",
+      "description": "掌握汉字书写规范和笔顺规则",
+      "points": [
+        {
+          "point_id": "M2P1",
+          "point_name": "汉字笔顺规则",
+          "description": "掌握汉字基本笔顺规则",
+          "difficulty": 2,
+          "importance": 5,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M2P2"
+          ],
+          "typical_questions": [
+            "\"火\"字的笔顺是：",
+            "\"出\"字第三笔是（ ）"
+          ],
+          "knowledge_content": "基本笔顺规则：先横后竖、先撇后捺、从上到下、从左到右、先外后内、先中间后两边、先进人后关门",
+          "common_mistakes": [
+            "\"火\"字笔顺错误",
+            "\"出\"字笔顺混乱",
+            "\"方\"字笔顺错误"
+          ],
+          "teaching_suggestions": "通过书空、描红等方式强化正确笔顺"
+        },
+        {
+          "point_id": "M2P2",
+          "point_name": "汉字基本笔画",
+          "description": "认识和书写汉字的基本笔画",
+          "difficulty": 1,
+          "importance": 5,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M2P1"
+          ],
+          "typical_questions": [
+            "\"横折钩\"的笔画名称是（ ）",
+            "写出含有\"竖提\"笔画的字"
+          ],
+          "knowledge_content": "基本笔画：点、横、竖、撇、捺、提；复合笔画：横钩、竖钩、弯钩、横折、竖折、撇折、横折钩、竖弯钩等",
+          "common_mistakes": [
+            "笔画名称记不清",
+            "复合笔画算作多笔"
+          ],
+          "teaching_suggestions": "通过笔画操、笔画卡片等游戏化方式学习"
+        },
+        {
+          "point_id": "M2P3",
+          "point_name": "汉字间架结构",
+          "description": "了解汉字的间架结构类型",
+          "difficulty": 2,
+          "importance": 4,
+          "exam_frequency": 3,
+          "prerequisites": [],
+          "related_points": [
+            "M2P4"
+          ],
+          "typical_questions": [
+            "\"明\"是（ ）结构的字",
+            "找出下列字中左右结构的字：花、草、字、品、思"
+          ],
+          "knowledge_content": "汉字结构类型：独体字、左右结构、上下结构、左中右结构、上中下结构、半包围结构、全包围结构",
+          "common_mistakes": [
+            "半包围与全包围不分",
+            "左中右与左右结构混淆"
+          ],
+          "teaching_suggestions": "通过拆字游戏加深理解"
+        },
+        {
+          "point_id": "M2P4",
+          "point_name": "书写姿势与规范",
+          "description": "养成正确的书写姿势和书写习惯",
+          "difficulty": 1,
+          "importance": 5,
+          "exam_frequency": 2,
+          "prerequisites": [],
+          "related_points": [
+            "M2P1"
+          ],
+          "typical_questions": [
+            "写字时要做到：头（ ）、身（ ）、臂（ ）、足（ ）",
+            "握笔要做到\"一尺、一寸、一拳头\"分别指什么"
+          ],
+          "knowledge_content": "正确坐姿：头正、身直、臂开、足安；正确握笔：三指握笔，一尺一寸一拳头；书写要求：横平竖直，工整美观",
+          "common_mistakes": [
+            "握笔姿势不正确",
+            "写字时趴在桌上",
+            "字写得过大或过小"
+          ],
+          "teaching_suggestions": "及时提醒纠正，养成良好习惯"
+        }
+      ]
+    },
+    {
+      "module_id": "M3",
+      "module_name": "词语积累",
+      "description": "积累词语，理解词义，学会运用",
+      "points": [
+        {
+          "point_id": "M3P1",
+          "point_name": "近义词辨析",
+          "description": "理解并区分常用近义词",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M3P2"
+          ],
+          "typical_questions": [
+            "写出下列词语的近义词：美丽——（ ）",
+            "选词填空：（仍然/依然）下着雨"
+          ],
+          "knowledge_content": "常见近义词组：美丽-漂亮、高兴-快乐、著名-有名、突然-忽然、立刻-马上、喜欢-喜爱、办法-方法、如果-假如等",
+          "common_mistakes": [
+            "近义词替换后改变句意",
+            "不注意词语的感情色彩"
+          ],
+          "teaching_suggestions": "在具体语境中辨析近义词的细微差别"
+        },
+        {
+          "point_id": "M3P2",
+          "point_name": "反义词积累",
+          "description": "掌握常用词语的反义词",
+          "difficulty": 2,
+          "importance": 4,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M3P1"
+          ],
+          "typical_questions": [
+            "写出下列词语的反义词：热闹——（ ）",
+            "用反义词填空：这个苹果又（大）又（红），那个苹果又（ ）又（ ）"
+          ],
+          "knowledge_content": "常见反义词：大-小、多-少、高-低、长-短、前-后、冷-热、开-关、黑-白、早-晚、新-旧、美-丑、好-坏、快-慢等",
+          "common_mistakes": [
+            "单音词与双音词反义词混用",
+            "不注意词性对应"
+          ],
+          "teaching_suggestions": "通过对比游戏加深记忆"
+        },
+        {
+          "point_id": "M3P3",
+          "point_name": "ABB式词语",
+          "description": "积累和运用ABB式叠词",
+          "difficulty": 2,
+          "importance": 3,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M3P4"
+          ],
+          "typical_questions": [
+            "照样子写词语：红红的 绿（ ）（ ）",
+            "在括号里填上合适的词：笑得（ ）"
+          ],
+          "knowledge_content": "ABB式词语：红红的、绿绿的、白白的、黑黑的、亮晶晶、金灿灿、笑哈哈、笑呵呵、静悄悄、乐呵呵、胖乎乎、圆溜溜等",
+          "common_mistakes": [
+            "ABB与AAB格式混淆",
+            "不会灵活运用"
+          ],
+          "teaching_suggestions": "分类积累，在句子中练习运用"
+        },
+        {
+          "point_id": "M3P4",
+          "point_name": "AABB式词语",
+          "description": "积累和运用AABB式叠词",
+          "difficulty": 2,
+          "importance": 3,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M3P3"
+          ],
+          "typical_questions": [
+            "照样子写词语：高高兴兴 开开（ ）（ ）",
+            "把词语补充完整：（ ）（ ）地走来走去"
+          ],
+          "knowledge_content": "AABB式词语：高高兴兴、开开心心、快快乐乐、平平安安、安安静静、干干净净、清清楚楚、明明白白、仔仔细细等",
+          "common_mistakes": [
+            "叠词使用不当",
+            "书写时漏字或错字"
+          ],
+          "teaching_suggestions": "结合生活情境积累词语"
+        },
+        {
+          "point_id": "M3P5",
+          "point_name": "量词的使用",
+          "description": "正确使用常用量词",
+          "difficulty": 2,
+          "importance": 4,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [],
+          "typical_questions": [
+            "填上合适的量词：一（ ）树 一（ ）鸟",
+            "下列量词使用正确的是（ ）"
+          ],
+          "knowledge_content": "常用量词：个、只、条、头、匹、座、棵、朵、张、把、双、本、件、辆、架、台、盏、顶等及其搭配规律",
+          "common_mistakes": [
+            "量词搭配不当（如：一头鸟）",
+            "该用量词处缺少量词"
+          ],
+          "teaching_suggestions": "在实物或图片中练习量词搭配"
+        },
+        {
+          "point_id": "M3P6",
+          "point_name": "成语积累",
+          "description": "积累简单的常用成语并理解意思",
+          "difficulty": 3,
+          "importance": 3,
+          "exam_frequency": 3,
+          "prerequisites": [],
+          "related_points": [
+            "M5P3"
+          ],
+          "typical_questions": [
+            "解释成语：坐井观天的意思是",
+            "根据意思写成语：形容时间过得很快"
+          ],
+          "knowledge_content": "二年级常见成语：坐井观天、亡羊补牢、拔苗助长、守株待兔、画蛇添足、刻舟求剑、自相矛盾、掩耳盗铃等寓言成语及其寓意",
+          "common_mistakes": [
+            "只会背不理解意思",
+            "不会在生活中运用"
+          ],
+          "teaching_suggestions": "结合故事理解成语，在写话中尝试运用"
+        }
+      ]
+    },
+    {
+      "module_id": "M4",
+      "module_name": "句子理解与运用",
+      "description": "理解句子含义，掌握基本句式",
+      "points": [
+        {
+          "point_id": "M4P1",
+          "point_name": "句子的完整性",
+          "description": "理解完整句子的构成，能把话说完整",
+          "difficulty": 2,
+          "importance": 5,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M4P2"
+          ],
+          "typical_questions": [
+            "把句子补充完整：春天到了，___________。",
+            "下列哪句话是完整的"
+          ],
+          "knowledge_content": "完整的句子要有：谁（什么）、干什么（怎么样）。基本句式：谁在哪里干什么；什么时候谁干什么；谁怎么样地干什么",
+          "common_mistakes": [
+            "句子缺少主要成分",
+            "句子意思表达不清楚",
+            "没有正确使用标点符号"
+          ],
+          "teaching_suggestions": "从简单句开始，逐步扩展句子成分"
+        },
+        {
+          "point_id": "M4P2",
+          "point_name": "把字句和被字句",
+          "description": "理解并正确使用把字句和被字句",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M4P1"
+          ],
+          "related_points": [],
+          "typical_questions": [
+            "改成把字句：妈妈洗干净了衣服。",
+            "改成被字句：风吹走了树叶。"
+          ],
+          "knowledge_content": "把字句：谁把什么怎么样了。被字句：什么被谁怎么样了。两种句式的转换关系",
+          "common_mistakes": [
+            "把字句中\"把\"字后缺少宾语",
+            "被字句中动词后缺少补语",
+            "两种句式转换时漏掉成分"
+          ],
+          "teaching_suggestions": "通过对比练习掌握两种句式的转换"
+        },
+        {
+          "point_id": "M4P3",
+          "point_name": "比喻句",
+          "description": "认识比喻句，理解本体和喻体",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M4P4"
+          ],
+          "typical_questions": [
+            "判断：\"弯弯的月亮像小船\"是比喻句吗？",
+            "照样子写比喻句：荷叶圆圆的，绿绿的，像______。"
+          ],
+          "knowledge_content": "比喻句的构成：本体+像/好像/仿佛+喻体。常见的比喻：月亮像小船，太阳像火球，星星像眼睛等",
+          "common_mistakes": [
+            "不理解比喻的相似点",
+            "比喻不恰当",
+            "漏掉比喻词"
+          ],
+          "teaching_suggestions": "引导学生观察事物特征，寻找相似点"
+        },
+        {
+          "point_id": "M4P4",
+          "point_name": "拟人句",
+          "description": "认识拟人句，能仿写简单的拟人句",
+          "difficulty": 3,
+          "importance": 3,
+          "exam_frequency": 3,
+          "prerequisites": [],
+          "related_points": [
+            "M4P3"
+          ],
+          "typical_questions": [
+            "判断：\"小鸟在枝头唱歌\"是拟人句吗？",
+            "把句子改成拟人句：风吹着树叶。"
+          ],
+          "knowledge_content": "拟人句是把物当作人来写，赋予物人的动作、语言、表情、心理等。如：春风轻轻地抚摸着我的脸",
+          "common_mistakes": [
+            "拟人句和比喻句混淆",
+            "拟人化不够生动"
+          ],
+          "teaching_suggestions": "通过课文中的例句学习仿写"
+        },
+        {
+          "point_id": "M4P5",
+          "point_name": "感叹句和疑问句",
+          "description": "区分陈述、疑问、感叹等不同语气的句子",
+          "difficulty": 2,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M4P1"
+          ],
+          "related_points": [
+            "M4P6"
+          ],
+          "typical_questions": [
+            "给句子加上标点：多么美丽的花呀（ ）",
+            "把陈述句改成感叹句：这朵花很美。"
+          ],
+          "knowledge_content": "陈述句用句号，疑问句用问号，感叹句用感叹号。感叹句常用词：多么、太、真、好等；疑问句常用词：吗、呢、什么、哪里、怎么等",
+          "common_mistakes": [
+            "标点符号使用错误",
+            "疑问句缺少疑问词",
+            "感叹句语气不强烈"
+          ],
+          "teaching_suggestions": "通过朗读体会不同句式的语气"
+        },
+        {
+          "point_id": "M4P6",
+          "point_name": "句子排序",
+          "description": "能按一定顺序排列句子组成段落",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M4P1"
+          ],
+          "related_points": [
+            "M5P1"
+          ],
+          "typical_questions": [
+            "把下列句子排成一段通顺的话，序号写在括号里",
+            "哪句话应该放在最前面"
+          ],
+          "knowledge_content": "排序方法：按时间顺序、按事情发展顺序、按空间顺序。注意寻找关键词：首先、然后、接着、最后；先、再、又等",
+          "common_mistakes": [
+            "不注意句子间的逻辑关系",
+            "忽略时间或空间提示词",
+            "因果关系颠倒"
+          ],
+          "teaching_suggestions": "先找首尾句，再排中间句"
+        }
+      ]
+    },
+    {
+      "module_id": "M5",
+      "module_name": "阅读理解",
+      "description": "理解短文内容，培养阅读能力",
+      "points": [
+        {
+          "point_id": "M5P1",
+          "point_name": "自然段的认识",
+          "description": "认识自然段，能数清自然段",
+          "difficulty": 1,
+          "importance": 4,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M5P2"
+          ],
+          "typical_questions": [
+            "这篇短文有（ ）个自然段",
+            "第2自然段有（ ）句话"
+          ],
+          "knowledge_content": "自然段：开头空两格开始到结束为一个自然段。自然段序号标注方法",
+          "common_mistakes": [
+            "把一句话当作一个自然段",
+            "不会正确标注自然段序号"
+          ],
+          "teaching_suggestions": "通过大量阅读练习巩固"
+        },
+        {
+          "point_id": "M5P2",
+          "point_name": "文章主要内容概括",
+          "description": "能说出文章主要讲了什么",
+          "difficulty": 3,
+          "importance": 5,
+          "exam_frequency": 5,
+          "prerequisites": [
+            "M5P1"
+          ],
+          "related_points": [
+            "M5P3"
+          ],
+          "typical_questions": [
+            "这篇短文主要讲了一件什么事？",
+            "这个故事讲了谁干什么？"
+          ],
+          "knowledge_content": "概括方法：时间+地点+人物+事件；或：谁+干什么+结果。抓住关键句（首句、尾句）",
+          "common_mistakes": [
+            "概括过于详细变成复述",
+            "遗漏主要信息",
+            "表达不完整"
+          ],
+          "teaching_suggestions": "用\"谁干什么\"的句式训练概括"
+        },
+        {
+          "point_id": "M5P3",
+          "point_name": "文章中心思想理解",
+          "description": "理解文章要告诉我们的道理",
+          "difficulty": 4,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M5P2"
+          ],
+          "related_points": [
+            "M3P6"
+          ],
+          "typical_questions": [
+            "读了这个故事，你明白了什么道理？",
+            "这篇文章告诉我们什么？"
+          ],
+          "knowledge_content": "理解方法：关注故事结尾、人物对话、作者评价等。常见道理：要诚实、要勤劳、要互相帮助、不能骄傲等",
+          "common_mistakes": [
+            "停留在表面理解",
+            "道理总结不准确",
+            "不会用自己的话表达"
+          ],
+          "teaching_suggestions": "结合生活实际理解道理"
+        },
+        {
+          "point_id": "M5P4",
+          "point_name": "词语在文中的意思",
+          "description": "联系上下文理解词语的意思",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M3P1"
+          ],
+          "typical_questions": [
+            "联系上下文，\"郁郁葱葱\"的意思是",
+            "文中\"垂头丧气\"是指什么"
+          ],
+          "knowledge_content": "理解方法：找近义词、联系上下文、看具体描写、看前后句子的解释",
+          "common_mistakes": [
+            "脱离语境解释词语",
+            "不会用自己的话解释",
+            "理解过于表面"
+          ],
+          "teaching_suggestions": "教会学生在句子中理解词语"
+        },
+        {
+          "point_id": "M5P5",
+          "point_name": "人物心情体会",
+          "description": "读懂人物的心情变化和原因",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M5P6"
+          ],
+          "typical_questions": [
+            "从哪些词语可以看出小明很高兴？",
+            "这时他的心情是（ ）的"
+          ],
+          "knowledge_content": "体会方法：从动作、语言、表情、心理描写等方面体会。常见心情词：高兴、难过、着急、害怕、生气、激动等",
+          "common_mistakes": [
+            "不会从描写中推断心情",
+            "心情词使用不准确"
+          ],
+          "teaching_suggestions": "通过角色扮演、朗读体会人物心情"
+        },
+        {
+          "point_id": "M5P6",
+          "point_name": "标点符号的作用",
+          "description": "认识常用标点符号及其作用",
+          "difficulty": 2,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [],
+          "related_points": [
+            "M4P5"
+          ],
+          "typical_questions": [
+            "\"你去哪里？\"这句话用的是（ ）号，表示",
+            "给句子加上正确的标点符号"
+          ],
+          "knowledge_content": "常用标点：句号（。）陈述，问号（？）疑问，感叹号（！）感叹，逗号（，）停顿，冒号（：）提示，引号（\"\"）引用对话",
+          "common_mistakes": [
+            "问号和叹号混用",
+            "引号使用不规范",
+            "逗号和句号不分"
+          ],
+          "teaching_suggestions": "在朗读中体会标点符号的作用"
+        }
+      ]
+    },
+    {
+      "module_id": "M6",
+      "module_name": "古诗文",
+      "description": "背诵古诗，理解诗意",
+      "points": [
+        {
+          "point_id": "M6P1",
+          "point_name": "古诗背诵",
+          "description": "背诵指定古诗并正确默写",
+          "difficulty": 2,
+          "importance": 5,
+          "exam_frequency": 5,
+          "prerequisites": [],
+          "related_points": [
+            "M6P2"
+          ],
+          "typical_questions": [
+            "默写古诗《村居》",
+            "把诗句补充完整：儿童散学归来早，___________"
+          ],
+          "knowledge_content": "二年级必背古诗：《村居》《咏柳》《赋得古原草送别》《望庐山瀑布》《绝句》《敕勒歌》《夜宿山寺》等",
+          "common_mistakes": [
+            "诗句记混",
+            "默写错别字",
+            "不会正确书写古诗格式"
+          ],
+          "teaching_suggestions": "理解基础上背诵，注意古诗书写格式"
+        },
+        {
+          "point_id": "M6P2",
+          "point_name": "古诗意境理解",
+          "description": "理解古诗大意，想象诗中画面",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M6P1"
+          ],
+          "related_points": [
+            "M6P3"
+          ],
+          "typical_questions": [
+            "\"草长莺飞二月天\"描写的是什么季节的景色？",
+            "\"碧玉妆成一树高\"中的\"碧玉\"指的是什么？"
+          ],
+          "knowledge_content": "理解方法：借助注释、看插图、联系生活、想象画面。重点词语解释、诗句意思、整首诗表达的情感",
+          "common_mistakes": [
+            "只会背不理解",
+            "不会用自己的话说诗意",
+            "不理解重点词语"
+          ],
+          "teaching_suggestions": "通过图画、视频等帮助理解诗境"
+        },
+        {
+          "point_id": "M6P3",
+          "point_name": "古诗情感体会",
+          "description": "体会古诗表达的思想感情",
+          "difficulty": 3,
+          "importance": 3,
+          "exam_frequency": 3,
+          "prerequisites": [
+            "M6P2"
+          ],
+          "related_points": [],
+          "typical_questions": [
+            "这首诗表达了诗人怎样的心情？",
+            "从哪句诗可以看出诗人很快乐？"
+          ],
+          "knowledge_content": "常见情感：对春天的喜爱、对祖国山河的赞美、对家乡的思念、对朋友的惜别之情等",
+          "common_mistakes": [
+            "情感把握不准",
+            "不会从诗句中找依据"
+          ],
+          "teaching_suggestions": "结合诗人生平和创作背景理解"
+        }
+      ]
+    },
+    {
+      "module_id": "M7",
+      "module_name": "写话与表达",
+      "description": "学会观察，学会表达",
+      "points": [
+        {
+          "point_id": "M7P1",
+          "point_name": "看图写话",
+          "description": "能根据图画内容写几句完整的话",
+          "difficulty": 3,
+          "importance": 5,
+          "exam_frequency": 5,
+          "prerequisites": [
+            "M4P1"
+          ],
+          "related_points": [
+            "M7P2"
+          ],
+          "typical_questions": [
+            "看图写话：图上画的是什么时候？有谁？在干什么？",
+            "仔细观察图画，写几句话"
+          ],
+          "knowledge_content": "看图写话要素：时间、地点、人物、事情。写话要求：语句通顺、内容完整、标点正确、想象合理",
+          "common_mistakes": [
+            "只写一两句话",
+            "没有按顺序观察",
+            "缺少合理想象",
+            "标点符号错误"
+          ],
+          "teaching_suggestions": "引导按顺序观察，用\"谁在哪里干什么\"句式表达"
+        },
+        {
+          "point_id": "M7P2",
+          "point_name": "日记写作",
+          "description": "能写简单的日记，记录生活",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 4,
+          "prerequisites": [
+            "M4P1",
+            "M7P1"
+          ],
+          "related_points": [
+            "M7P3"
+          ],
+          "typical_questions": [
+            "用日记的格式写一写今天发生的事",
+            "写一篇观察日记"
+          ],
+          "knowledge_content": "日记格式：第一行写日期、星期、天气；第二行空两格开始写内容。内容：写自己看到的、听到的、想到的、做过的事",
+          "common_mistakes": [
+            "格式不正确",
+            "内容过于简单",
+            "流水账记录"
+          ],
+          "teaching_suggestions": "从写一两句话开始，逐步增加内容"
+        },
+        {
+          "point_id": "M7P3",
+          "point_name": "写话想象力培养",
+          "description": "能展开合理想象，把话写生动",
+          "difficulty": 3,
+          "importance": 4,
+          "exam_frequency": 3,
+          "prerequisites": [
+            "M7P1"
+          ],
+          "related_points": [
+            "M4P3",
+            "M4P4"
+          ],
+          "typical_questions": [
+            "假如你有一双翅膀，你会做什么？",
+            "发挥想象，续写故事"
+          ],
+          "knowledge_content": "想象方法：运用比喻句、拟人句；加入人物语言、心理；合理续编故事；假设情境写话",
+          "common_mistakes": [
+            "想象不合理",
+            "想象过于离奇",
+            "只想象不描写"
+          ],
+          "teaching_suggestions": "鼓励大胆想象，在合理的基础上追求生动"
+        },
+        {
+          "point_id": "M7P4",
+          "point_name": "写话修改",
+          "description": "能初步检查和修改自己的写话",
+          "difficulty": 2,
+          "importance": 4,
+          "exam_frequency": 3,
+          "prerequisites": [
+            "M7P1"
+          ],
+          "related_points": [],
+          "typical_questions": [
+            "读读自己写的话，改正错误",
+            "找出句子中的错别字"
+          ],
+          "knowledge_content": "修改要点：检查有无错别字、标点是否正确、句子是否通顺、内容是否完整。养成写完后读一读的习惯",
+          "common_mistakes": [
+            "写完不检查",
+            "不会发现自己的错误",
+            "修改后更乱"
+          ],
+          "teaching_suggestions": "教会自查方法，养成修改习惯"
+        }
+      ]
+    }
+  ],
+  "learning_objectives": {
+    "semester_1": [
+      "认识450个常用汉字，会写250个字",
+      "掌握基本笔画和笔顺规则",
+      "积累常用词语，理解词义",
+      "能把句子写完整、通顺",
+      "背诵指定古诗8-10首",
+      "能看图写几句完整的话"
+    ],
+    "semester_2": [
+      "认识450个常用汉字，会写250个字",
+      "会使用字典查字",
+      "能正确使用常用标点符号",
+      "理解简单短文的主要内容",
+      "能写简单的日记和留言条",
+      "积累一定数量的好词好句"
+    ]
+  },
+  "teaching_suggestions": [
+    "识字与写字要每天坚持练习",
+    "大量阅读课外读物，积累语言",
+    "鼓励学生用完整的话表达",
+    "培养良好的书写习惯",
+    "激发学生对语文学习的兴趣",
+    "结合生活实际学习语文"
+  ],
+  "assessment_methods": [
+    "听写测试（字词）",
+    "朗读测试（课文、古诗）",
+    "阅读理解测试（短文）",
+    "看图写话测试",
+    "综合能力测试（期中期末考试）",
+    "平时积累检查（词语、句子）"
+  ]
+}

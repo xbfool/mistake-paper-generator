@@ -1,0 +1,623 @@
+{
+  "grade": "小学6年级",
+  "subject": "英语",
+  "total_points": 45,
+  "modules": [
+    {
+      "module_id": "M01",
+      "module_name": "词汇模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP001",
+          "point_name": "职业类词汇",
+          "description": "掌握常见职业名称：teacher, doctor, nurse, driver, farmer, worker, scientist等",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP002",
+            "KP015"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP002",
+          "point_name": "地点场所类词汇",
+          "description": "掌握常见地点：hospital, library, museum, restaurant, supermarket, post office等",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP001",
+            "KP016"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP003",
+          "point_name": "季节与天气词汇",
+          "description": "掌握四季和天气表达：spring, summer, autumn, winter, sunny, rainy, cloudy, windy, snowy等",
+          "difficulty": "easy",
+          "importance": "high",
+          "related_points": [
+            "KP017",
+            "KP025"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP004",
+          "point_name": "情感与描述性形容词",
+          "description": "掌握情感和特征形容词：excited, nervous, proud, surprised, brave, honest, careful等",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP018",
+            "KP028"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP005",
+          "point_name": "动词短语",
+          "description": "掌握常用动词短语：get up, go to bed, take care of, look for, turn on/off等",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP019",
+            "KP024"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP006",
+          "point_name": "交通方式词汇",
+          "description": "掌握交通工具和方式：by bus/car/train/plane/ship, on foot, subway等",
+          "difficulty": "easy",
+          "importance": "medium",
+          "related_points": [
+            "KP002",
+            "KP020"
+          ],
+          "teaching_hours": 2
+        }
+      ]
+    },
+    {
+      "module_id": "M02",
+      "module_name": "语法模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP007",
+          "point_name": "一般现在时",
+          "description": "掌握一般现在时的用法、结构及第三人称单数变化规则",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP008",
+            "KP009"
+          ],
+          "teaching_hours": 4
+        },
+        {
+          "point_id": "KP008",
+          "point_name": "一般过去时",
+          "description": "掌握一般过去时的用法、规则动词和不规则动词的过去式",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP007",
+            "KP009"
+          ],
+          "teaching_hours": 4
+        },
+        {
+          "point_id": "KP009",
+          "point_name": "一般将来时",
+          "description": "掌握will和be going to表示将来的用法和区别",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP007",
+            "KP008"
+          ],
+          "teaching_hours": 4
+        },
+        {
+          "point_id": "KP010",
+          "point_name": "现在进行时",
+          "description": "掌握现在进行时的结构（be+doing）和使用场景",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP007",
+            "KP011"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP011",
+          "point_name": "过去进行时",
+          "description": "掌握过去进行时的结构（was/were+doing）和使用场景",
+          "difficulty": "hard",
+          "importance": "medium",
+          "related_points": [
+            "KP008",
+            "KP010"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP012",
+          "point_name": "形容词比较级和最高级",
+          "description": "掌握形容词比较级和最高级的变化规则及用法",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP004",
+            "KP013"
+          ],
+          "teaching_hours": 4
+        },
+        {
+          "point_id": "KP013",
+          "point_name": "副词的用法",
+          "description": "掌握常用副词及其在句中的位置：often, usually, sometimes, never等",
+          "difficulty": "medium",
+          "importance": "medium",
+          "related_points": [
+            "KP007",
+            "KP012"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP014",
+          "point_name": "情态动词",
+          "description": "掌握can, could, should, must, may的用法和区别",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP007",
+            "KP021"
+          ],
+          "teaching_hours": 3
+        }
+      ]
+    },
+    {
+      "module_id": "M03",
+      "module_name": "句型模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP015",
+          "point_name": "询问职业的句型",
+          "description": "掌握What does he/she do? What's his/her job?等句型",
+          "difficulty": "easy",
+          "importance": "high",
+          "related_points": [
+            "KP001",
+            "KP016"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP016",
+          "point_name": "问路与指路句型",
+          "description": "掌握Excuse me, where is...? How can I get to...? Go straight/Turn left/right等",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP002",
+            "KP006"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP017",
+          "point_name": "描述天气的句型",
+          "description": "掌握What's the weather like? How's the weather? It's...等句型",
+          "difficulty": "easy",
+          "importance": "medium",
+          "related_points": [
+            "KP003",
+            "KP025"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP018",
+          "point_name": "表达感受的句型",
+          "description": "掌握How do you feel? I feel... I'm...等表达情感的句型",
+          "difficulty": "easy",
+          "importance": "high",
+          "related_points": [
+            "KP004",
+            "KP028"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP019",
+          "point_name": "描述日常活动的句型",
+          "description": "掌握What do you usually do? I usually/often/sometimes...等句型",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP005",
+            "KP007"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP020",
+          "point_name": "询问交通方式的句型",
+          "description": "掌握How do you go to...? I go...by.../on foot等句型",
+          "difficulty": "easy",
+          "importance": "medium",
+          "related_points": [
+            "KP006",
+            "KP016"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP021",
+          "point_name": "提建议的句型",
+          "description": "掌握Why don't you...? How about...? Let's... You should...等句型",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP014",
+            "KP022"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP022",
+          "point_name": "There be句型",
+          "description": "掌握There is/are/was/were的用法和就近原则",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP007",
+            "KP008"
+          ],
+          "teaching_hours": 3
+        }
+      ]
+    },
+    {
+      "module_id": "M04",
+      "module_name": "阅读理解模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP023",
+          "point_name": "记叙文阅读",
+          "description": "理解人物、时间、地点、事件等要素，把握故事情节发展",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP024",
+            "KP036"
+          ],
+          "teaching_hours": 4
+        },
+        {
+          "point_id": "KP024",
+          "point_name": "说明文阅读",
+          "description": "理解事物的特征、过程、功能等说明性文本",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP023",
+            "KP025"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP025",
+          "point_name": "应用文阅读",
+          "description": "读懂通知、广告、信件、日记等应用类文本",
+          "difficulty": "medium",
+          "importance": "medium",
+          "related_points": [
+            "KP024",
+            "KP037"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP026",
+          "point_name": "细节理解能力",
+          "description": "从文中准确找出特定信息，回答who, what, where, when等问题",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP023",
+            "KP027"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP027",
+          "point_name": "主旨大意把握",
+          "description": "归纳文章或段落的主要内容和中心思想",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP026",
+            "KP028"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP028",
+          "point_name": "推理判断能力",
+          "description": "根据文中信息进行合理推断和判断",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP027",
+            "KP029"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP029",
+          "point_name": "词义猜测能力",
+          "description": "根据上下文推测生词或短语的含义",
+          "difficulty": "medium",
+          "importance": "medium",
+          "related_points": [
+            "KP028",
+            "KP030"
+          ],
+          "teaching_hours": 2
+        }
+      ]
+    },
+    {
+      "module_id": "M05",
+      "module_name": "听力理解模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP030",
+          "point_name": "听懂日常对话",
+          "description": "理解日常生活场景中的简单对话内容",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP031",
+            "KP015"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP031",
+          "point_name": "听取关键信息",
+          "description": "从听力材料中捕捉时间、地点、人物、数字等关键信息",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP030",
+            "KP032"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP032",
+          "point_name": "听懂简短故事",
+          "description": "理解简单故事的情节发展和主要内容",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP031",
+            "KP033"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP033",
+          "point_name": "听懂指令和描述",
+          "description": "理解教师指令、路线描述、物品描述等",
+          "difficulty": "medium",
+          "importance": "medium",
+          "related_points": [
+            "KP032",
+            "KP016"
+          ],
+          "teaching_hours": 2
+        }
+      ]
+    },
+    {
+      "module_id": "M06",
+      "module_name": "写作表达模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP034",
+          "point_name": "句子书写规范",
+          "description": "掌握句子首字母大写、标点符号、词间距等书写规范",
+          "difficulty": "easy",
+          "importance": "high",
+          "related_points": [
+            "KP035",
+            "KP036"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP035",
+          "point_name": "简单句写作",
+          "description": "能写出主谓宾结构完整的简单句",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP034",
+            "KP036"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP036",
+          "point_name": "段落写作",
+          "description": "能围绕主题写出5-8句话的连贯段落",
+          "difficulty": "hard",
+          "importance": "high",
+          "related_points": [
+            "KP035",
+            "KP037"
+          ],
+          "teaching_hours": 4
+        },
+        {
+          "point_id": "KP037",
+          "point_name": "应用文写作",
+          "description": "能写简单的信件、日记、通知、贺卡等",
+          "difficulty": "hard",
+          "importance": "medium",
+          "related_points": [
+            "KP036",
+            "KP025"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP038",
+          "point_name": "看图写话",
+          "description": "根据图片提示写出相关内容，描述人物、场景或事件",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP035",
+            "KP036"
+          ],
+          "teaching_hours": 3
+        }
+      ]
+    },
+    {
+      "module_id": "M07",
+      "module_name": "口语交际模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP039",
+          "point_name": "自我介绍",
+          "description": "能流利介绍自己的姓名、年龄、爱好、家庭等基本信息",
+          "difficulty": "easy",
+          "importance": "high",
+          "related_points": [
+            "KP040",
+            "KP041"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP040",
+          "point_name": "日常问候与交际",
+          "description": "掌握问候、道别、感谢、道歉等基本交际用语",
+          "difficulty": "easy",
+          "importance": "high",
+          "related_points": [
+            "KP039",
+            "KP041"
+          ],
+          "teaching_hours": 2
+        },
+        {
+          "point_id": "KP041",
+          "point_name": "话题讨论",
+          "description": "能就熟悉话题（学校、家庭、爱好等）进行简单交流",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP040",
+            "KP042"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP042",
+          "point_name": "角色扮演与对话",
+          "description": "能参与情景对话，完成购物、问路、就餐等交际任务",
+          "difficulty": "medium",
+          "importance": "medium",
+          "related_points": [
+            "KP041",
+            "KP016"
+          ],
+          "teaching_hours": 3
+        }
+      ]
+    },
+    {
+      "module_id": "M08",
+      "module_name": "语音语调模块",
+      "knowledge_points": [
+        {
+          "point_id": "KP043",
+          "point_name": "字母与音标",
+          "description": "巩固26个字母和48个国际音标的认读",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP044",
+            "KP045"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP044",
+          "point_name": "语音规则",
+          "description": "掌握常见字母组合的发音规则（如th, ch, sh, oo, ee等）",
+          "difficulty": "medium",
+          "importance": "high",
+          "related_points": [
+            "KP043",
+            "KP045"
+          ],
+          "teaching_hours": 3
+        },
+        {
+          "point_id": "KP045",
+          "point_name": "语句语调",
+          "description": "掌握陈述句、疑问句、感叹句的基本语调模式",
+          "difficulty": "hard",
+          "importance": "medium",
+          "related_points": [
+            "KP044",
+            "KP039"
+          ],
+          "teaching_hours": 2
+        }
+      ]
+    }
+  ],
+  "assessment_criteria": {
+    "listening": {
+      "weight": 0.25,
+      "description": "听力理解能力评估"
+    },
+    "speaking": {
+      "weight": 0.2,
+      "description": "口语表达能力评估"
+    },
+    "reading": {
+      "weight": 0.3,
+      "description": "阅读理解能力评估"
+    },
+    "writing": {
+      "weight": 0.25,
+      "description": "写作表达能力评估"
+    }
+  },
+  "teaching_objectives": [
+    "能听懂、会说常用的日常交际用语，并能在实际情境中运用",
+    "能理解并正确使用所学词汇和语法知识",
+    "能读懂简单的英文短文，掌握基本阅读策略",
+    "能写出语句通顺、意思连贯的短文",
+    "培养学习英语的兴趣和自信心，形成良好的学习习惯"
+  ],
+  "curriculum_standards": "基于《义务教育英语课程标准》小学阶段二级目标要求",
+  "version": "1.0",
+  "last_updated": "2024年"
+}

@@ -1,0 +1,1351 @@
+{
+  "subject": "语文",
+  "grade": "5年级",
+  "semester": "全学年",
+  "total_points": 45,
+  "modules": [
+    {
+      "module_id": "M1",
+      "module_name": "识字写字",
+      "description": "汉字认读、书写与应用",
+      "points": [
+        {
+          "point_id": "M1P1",
+          "point_name": "常用字认读与书写",
+          "difficulty": 1,
+          "importance": 5,
+          "description": "认识本册生字200个，会写其中150个",
+          "prerequisites": [],
+          "related_points": [
+            "M2P1"
+          ],
+          "typical_problems": [
+            "形近字辨析（暮/幕/墓/慕）",
+            "多音字组词",
+            "同音字选择填空"
+          ],
+          "common_mistakes": [
+            "笔顺错误",
+            "偏旁部首混淆",
+            "字形结构不规范"
+          ],
+          "teaching_suggestions": "通过字源分析、字理识字法帮助记忆"
+        },
+        {
+          "point_id": "M1P2",
+          "point_name": "汉字的间架结构",
+          "difficulty": 2,
+          "importance": 4,
+          "description": "掌握左右、上下、包围等结构的书写规律",
+          "prerequisites": [
+            "M1P1"
+          ],
+          "related_points": [
+            "M1P3"
+          ],
+          "typical_problems": [
+            "分析汉字结构类型",
+            "根据结构特点书写汉字",
+            "判断字形美观性"
+          ],
+          "common_mistakes": [
+            "左右结构比例失调",
+            "包围结构内外关系不当",
+            "上下结构重心不稳"
+          ],
+          "teaching_suggestions": "使用田字格练习，强化结构意识"
+        },
+        {
+          "point_id": "M1P3",
+          "point_name": "书法基础（硬笔）",
+          "difficulty": 2,
+          "importance": 3,
+          "description": "掌握硬笔书法的基本笔画和运笔方法",
+          "prerequisites": [
+            "M1P2"
+          ],
+          "related_points": [],
+          "typical_problems": [
+            "基本笔画练习",
+            "偏旁部首书写",
+            "整字临摹"
+          ],
+          "common_mistakes": [
+            "握笔姿势不正确",
+            "运笔力度不均",
+            "笔画连接不自然"
+          ],
+          "teaching_suggestions": "每日坚持10分钟书写练习"
+        }
+      ]
+    },
+    {
+      "module_id": "M2",
+      "module_name": "词语积累与运用",
+      "description": "词语理解、积累和应用能力",
+      "points": [
+        {
+          "point_id": "M2P1",
+          "point_name": "词语的理解与辨析",
+          "difficulty": 2,
+          "importance": 5,
+          "description": "理解词语含义，辨析近义词、反义词",
+          "prerequisites": [
+            "M1P1"
+          ],
+          "related_points": [
+            "M2P2",
+            "M3P1"
+          ],
+          "typical_problems": [
+            "根据语境选择恰当词语",
+            "近义词辨析（居然/果然/竟然）",
+            "反义词配对"
+          ],
+          "common_mistakes": [
+            "脱离语境理解词义",
+            "近义词混用",
+            "不理解词语的感情色彩"
+          ],
+          "teaching_suggestions": "结合具体语境理解词义，建立词语库"
+        },
+        {
+          "point_id": "M2P2",
+          "point_name": "成语积累与运用",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "掌握100个常用成语，理解并正确运用",
+          "prerequisites": [
+            "M2P1"
+          ],
+          "related_points": [
+            "M6P2"
+          ],
+          "typical_problems": [
+            "成语填空（按图索（）））",
+            "成语解释与造句",
+            "成语故事理解",
+            "判断成语使用是否恰当"
+          ],
+          "common_mistakes": [
+            "望文生义",
+            "成语误用（如'美轮美奂'用于人）",
+            "写错别字（'惟妙惟肖'写成'维妙维肖'）"
+          ],
+          "teaching_suggestions": "讲解成语典故，在写作中应用"
+        },
+        {
+          "point_id": "M2P3",
+          "point_name": "关联词语的使用",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "正确使用因果、转折、条件等关联词",
+          "prerequisites": [
+            "M3P2"
+          ],
+          "related_points": [
+            "M3P3"
+          ],
+          "typical_problems": [
+            "选择恰当的关联词填空",
+            "判断关联词使用是否正确",
+            "用关联词连接句子"
+          ],
+          "common_mistakes": [
+            "关联词搭配不当（'虽然...可是'误用）",
+            "关联词位置错误",
+            "滥用关联词"
+          ],
+          "teaching_suggestions": "整理关联词分类表，进行专项练习"
+        },
+        {
+          "point_id": "M2P4",
+          "point_name": "词语的感情色彩",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "辨别词语的褒义、贬义、中性色彩",
+          "prerequisites": [
+            "M2P1"
+          ],
+          "related_points": [
+            "M6P3"
+          ],
+          "typical_problems": [
+            "区分褒贬义词（顽强/顽固）",
+            "根据感情色彩选词",
+            "分析词语在语境中的色彩变化"
+          ],
+          "common_mistakes": [
+            "褒贬不分",
+            "不考虑语境色彩",
+            "混淆中性词和褒贬义词"
+          ],
+          "teaching_suggestions": "在阅读中感受词语的感情倾向"
+        }
+      ]
+    },
+    {
+      "module_id": "M3",
+      "module_name": "句子理解与运用",
+      "description": "句子类型、修辞、变换与修改",
+      "points": [
+        {
+          "point_id": "M3P1",
+          "point_name": "句子成分分析",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "识别主语、谓语、宾语、定语、状语、补语",
+          "prerequisites": [
+            "M2P1"
+          ],
+          "related_points": [
+            "M3P2"
+          ],
+          "typical_problems": [
+            "划分句子成分",
+            "找出句子主干",
+            "扩句和缩句"
+          ],
+          "common_mistakes": [
+            "混淆定语和状语",
+            "缩句缩过头或不彻底",
+            "不能正确识别句子主干"
+          ],
+          "teaching_suggestions": "使用符号标记法，循序渐进分析"
+        },
+        {
+          "point_id": "M3P2",
+          "point_name": "句子类型（陈述、疑问、祈使、感叹）",
+          "difficulty": 2,
+          "importance": 4,
+          "description": "识别和运用四种句子类型",
+          "prerequisites": [],
+          "related_points": [
+            "M3P3"
+          ],
+          "typical_problems": [
+            "判断句子类型",
+            "句型转换",
+            "根据情境使用恰当句型"
+          ],
+          "common_mistakes": [
+            "反问句与疑问句混淆",
+            "感叹句标点使用错误",
+            "祈使句语气不当"
+          ],
+          "teaching_suggestions": "通过情境对话练习不同句型"
+        },
+        {
+          "point_id": "M3P3",
+          "point_name": "句式变换",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "陈述句、反问句、双重否定句、把字句、被字句互换",
+          "prerequisites": [
+            "M3P2"
+          ],
+          "related_points": [
+            "M3P4"
+          ],
+          "typical_problems": [
+            "陈述句改反问句",
+            "把字句改被字句",
+            "肯定句改双重否定句",
+            "直接引语改间接引语"
+          ],
+          "common_mistakes": [
+            "改句后意思改变",
+            "双重否定不彻底",
+            "人称代词转换错误"
+          ],
+          "teaching_suggestions": "强调变换前后意思不变的原则"
+        },
+        {
+          "point_id": "M3P4",
+          "point_name": "修改病句",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "识别和修改常见病句类型",
+          "prerequisites": [
+            "M3P1"
+          ],
+          "related_points": [
+            "M3P3"
+          ],
+          "typical_problems": [
+            "成分残缺（缺主语、宾语）",
+            "搭配不当",
+            "语序不当",
+            "重复啰嗦",
+            "前后矛盾",
+            "用词不当"
+          ],
+          "common_mistakes": [
+            "改变原句意思",
+            "改后仍有错误",
+            "过度修改"
+          ],
+          "teaching_suggestions": "总结病句类型，逐一攻克"
+        },
+        {
+          "point_id": "M3P5",
+          "point_name": "修辞方法（比喻、拟人、排比）",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "识别和运用常见修辞手法",
+          "prerequisites": [
+            "M2P1"
+          ],
+          "related_points": [
+            "M6P3",
+            "M4P3"
+          ],
+          "typical_problems": [
+            "判断句子使用的修辞手法",
+            "分析修辞的表达效果",
+            "仿写修辞句",
+            "在写作中运用修辞"
+          ],
+          "common_mistakes": [
+            "比喻和拟人混淆",
+            "比喻不恰当",
+            "排比句式不整齐"
+          ],
+          "teaching_suggestions": "从课文中提取范例，模仿练习"
+        },
+        {
+          "point_id": "M3P6",
+          "point_name": "修辞方法（夸张、设问、反问）",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "识别和运用夸张、设问、反问等修辞",
+          "prerequisites": [
+            "M3P5"
+          ],
+          "related_points": [
+            "M4P3"
+          ],
+          "typical_problems": [
+            "判断修辞类型",
+            "分析表达效果",
+            "将陈述句改为反问句",
+            "设问句的问答设计"
+          ],
+          "common_mistakes": [
+            "夸张失度",
+            "设问和反问混淆",
+            "反问句改写时意思改变"
+          ],
+          "teaching_suggestions": "对比不同修辞的表达效果"
+        }
+      ]
+    },
+    {
+      "module_id": "M4",
+      "module_name": "阅读理解（现代文）",
+      "description": "记叙文、说明文、议论文阅读能力",
+      "points": [
+        {
+          "point_id": "M4P1",
+          "point_name": "文章主要内容概括",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "用简洁的语言概括文章或段落主要内容",
+          "prerequisites": [],
+          "related_points": [
+            "M4P2",
+            "M4P4"
+          ],
+          "typical_problems": [
+            "概括段落大意",
+            "概括全文主要内容",
+            "提取关键信息",
+            "用'谁在什么地方做什么'句式概括"
+          ],
+          "common_mistakes": [
+            "概括过于详细或笼统",
+            "遗漏主要人物或事件",
+            "用自己的话评价而非概括"
+          ],
+          "teaching_suggestions": "教授'五要素法'和'段意合并法'"
+        },
+        {
+          "point_id": "M4P2",
+          "point_name": "中心思想的把握",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "理解文章表达的中心思想和情感",
+          "prerequisites": [
+            "M4P1"
+          ],
+          "related_points": [
+            "M4P3"
+          ],
+          "typical_problems": [
+            "归纳文章中心思想",
+            "理解作者情感态度",
+            "分析文章主旨",
+            "判断选项哪个是中心思想"
+          ],
+          "common_mistakes": [
+            "把内容概括当成中心思想",
+            "不能提炼文章主旨",
+            "理解片面"
+          ],
+          "teaching_suggestions": "关注文章题目、开头结尾、重复出现的句子"
+        },
+        {
+          "point_id": "M4P3",
+          "point_name": "重点句段理解与赏析",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "理解重点句段的含义和表达作用",
+          "prerequisites": [
+            "M3P5"
+          ],
+          "related_points": [
+            "M4P2"
+          ],
+          "typical_problems": [
+            "理解句子深层含义",
+            "分析句子表达效果",
+            "赏析修辞手法",
+            "体会词语的表达作用"
+          ],
+          "common_mistakes": [
+            "只理解表面意思",
+            "不结合上下文分析",
+            "赏析套话空话多"
+          ],
+          "teaching_suggestions": "教授'联系上下文+修辞手法+情感'三步法"
+        },
+        {
+          "point_id": "M4P4",
+          "point_name": "记叙文的六要素",
+          "difficulty": 2,
+          "importance": 4,
+          "description": "识别时间、地点、人物、起因、经过、结果",
+          "prerequisites": [],
+          "related_points": [
+            "M4P1",
+            "M4P5"
+          ],
+          "typical_problems": [
+            "找出记叙文六要素",
+            "分析哪些要素交代详细",
+            "判断缺少哪个要素"
+          ],
+          "common_mistakes": [
+            "遗漏某个要素",
+            "把场景描写当作要素",
+            "经过和结果分不清"
+          ],
+          "teaching_suggestions": "使用表格整理六要素"
+        },
+        {
+          "point_id": "M4P5",
+          "point_name": "记叙顺序（顺叙、倒叙、插叙）",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "识别文章的记叙顺序及其作用",
+          "prerequisites": [
+            "M4P4"
+          ],
+          "related_points": [
+            "M6P1"
+          ],
+          "typical_problems": [
+            "判断记叙顺序",
+            "找出倒叙或插叙部分",
+            "分析记叙顺序的作用"
+          ],
+          "common_mistakes": [
+            "顺叙和倒叙混淆",
+            "找不准插叙的起止",
+            "不理解不同顺序的作用"
+          ],
+          "teaching_suggestions": "对比阅读不同顺序的文章"
+        },
+        {
+          "point_id": "M4P6",
+          "point_name": "人物描写方法",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "识别外貌、语言、动作、心理、神态描写",
+          "prerequisites": [],
+          "related_points": [
+            "M6P3"
+          ],
+          "typical_problems": [
+            "判断描写方法类型",
+            "分析描写表现人物性格",
+            "找出文中的细节描写",
+            "分析描写的作用"
+          ],
+          "common_mistakes": [
+            "动作和神态描写混淆",
+            "不能通过描写分析性格",
+            "赏析流于表面"
+          ],
+          "teaching_suggestions": "积累描写精彩片段，学习仿写"
+        },
+        {
+          "point_id": "M4P7",
+          "point_name": "环境描写的作用",
+          "difficulty": 4,
+          "importance": 4,
+          "description": "理解自然环境和社会环境描写的作用",
+          "prerequisites": [
+            "M4P6"
+          ],
+          "related_points": [
+            "M4P3"
+          ],
+          "typical_problems": [
+            "找出环境描写的句子",
+            "分析环境描写的作用",
+            "理解景物描写烘托人物心情"
+          ],
+          "common_mistakes": [
+            "找不出环境描写",
+            "不理解环境描写的多重作用",
+            "分析作用时过于单一"
+          ],
+          "teaching_suggestions": "总结环境描写作用的答题模式"
+        },
+        {
+          "point_id": "M4P8",
+          "point_name": "说明文的说明方法",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "识别举例子、列数字、作比较、打比方等说明方法",
+          "prerequisites": [],
+          "related_points": [
+            "M4P9"
+          ],
+          "typical_problems": [
+            "判断说明方法类型",
+            "分析说明方法的作用",
+            "找出运用特定说明方法的句子"
+          ],
+          "common_mistakes": [
+            "作比较和打比方混淆",
+            "说明方法判断错误",
+            "不能准确表述作用"
+          ],
+          "teaching_suggestions": "对比各种说明方法的特点和作用"
+        },
+        {
+          "point_id": "M4P9",
+          "point_name": "说明文的说明顺序",
+          "difficulty": 3,
+          "importance": 3,
+          "description": "识别时间、空间、逻辑顺序",
+          "prerequisites": [
+            "M4P8"
+          ],
+          "related_points": [],
+          "typical_problems": [
+            "判断说明顺序",
+            "分析段落安排的依据",
+            "理解顺序的合理性"
+          ],
+          "common_mistakes": [
+            "空间顺序和逻辑顺序分不清",
+            "不理解说明顺序的依据",
+            "答题不规范"
+          ],
+          "teaching_suggestions": "标注关键词（首先、然后、由外到内等）"
+        },
+        {
+          "point_id": "M4P10",
+          "point_name": "标点符号的作用",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "理解引号、破折号、省略号等标点的特殊作用",
+          "prerequisites": [],
+          "related_points": [
+            "M4P3"
+          ],
+          "typical_problems": [
+            "分析引号的作用（引用/强调/特殊含义/讽刺）",
+            "理解破折号的用法（解释/转折/递进）",
+            "判断省略号省略的内容"
+          ],
+          "common_mistakes": [
+            "不理解引号的多种作用",
+            "破折号和冒号混淆",
+            "忽视标点符号的表达作用"
+          ],
+          "teaching_suggestions": "结合具体语境分析标点作用"
+        }
+      ]
+    },
+    {
+      "module_id": "M5",
+      "module_name": "古诗文阅读",
+      "description": "古诗词鉴赏和文言文阅读",
+      "points": [
+        {
+          "point_id": "M5P1",
+          "point_name": "古诗词背诵与默写",
+          "difficulty": 2,
+          "importance": 5,
+          "description": "熟练背诵课内要求的古诗词20首",
+          "prerequisites": [],
+          "related_points": [
+            "M5P2"
+          ],
+          "typical_problems": [
+            "根据上句写下句",
+            "根据情境默写诗句",
+            "按要求默写含有特定意象的诗句"
+          ],
+          "common_mistakes": [
+            "写错别字（如'一行白鹭上青天'写成'一行白露'）",
+            "诗句张冠李戴",
+            "默写不完整"
+          ],
+          "teaching_suggestions": "每日诵读，重视书写，理解记忆"
+        },
+        {
+          "point_id": "M5P2",
+          "point_name": "古诗词理解与赏析",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "理解诗意，赏析诗歌的意境和情感",
+          "prerequisites": [
+            "M5P1"
+          ],
+          "related_points": [
+            "M5P3"
+          ],
+          "typical_problems": [
+            "解释诗句意思",
+            "理解诗歌表达的情感",
+            "赏析诗歌的表现手法",
+            "体会诗歌的意境"
+          ],
+          "common_mistakes": [
+            "逐字翻译不流畅",
+            "不理解诗歌意境",
+            "情感把握不准确",
+            "赏析空洞"
+          ],
+          "teaching_suggestions": "了解诗歌背景，想象画面，体会情感"
+        },
+        {
+          "point_id": "M5P3",
+          "point_name": "古诗词的表现手法",
+          "difficulty": 4,
+          "importance": 4,
+          "description": "识别借景抒情、托物言志等手法",
+          "prerequisites": [
+            "M5P2"
+          ],
+          "related_points": [
+            "M3P5"
+          ],
+          "typical_problems": [
+            "判断诗歌运用的表现手法",
+            "分析表现手法的作用",
+            "赏析名句"
+          ],
+          "common_mistakes": [
+            "表现手法和修辞手法混淆",
+            "不能准确判断手法类型",
+            "作用分析套路化"
+          ],
+          "teaching_suggestions": "积累典型诗句，归类整理"
+        },
+        {
+          "point_id": "M5P4",
+          "point_name": "文言文实词理解",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "理解常见文言实词在文中的含义",
+          "prerequisites": [],
+          "related_points": [
+            "M5P5"
+          ],
+          "typical_problems": [
+            "解释加点字的意思",
+            "选择正确的字义",
+            "一词多义辨析"
+          ],
+          "common_mistakes": [
+            "用现代汉语意思解释古义",
+            "不结合语境理解",
+            "古今异义词理解错误"
+          ],
+          "teaching_suggestions": "积累常见实词，注意古今异义"
+        },
+        {
+          "point_id": "M5P5",
+          "point_name": "文言文句子翻译",
+          "difficulty": 4,
+          "importance": 4,
+          "description": "正确翻译简单的文言文句子",
+          "prerequisites": [
+            "M5P4"
+          ],
+          "related_points": [
+            "M5P6"
+          ],
+          "typical_problems": [
+            "翻译指定句子",
+            "补充省略的成分",
+            "调整语序"
+          ],
+          "common_mistakes": [
+            "漏译关键词",
+            "语序不调整",
+            "翻译不通顺",
+            "添加原文没有的内容"
+          ],
+          "teaching_suggestions": "遵循'信、达、雅'原则，直译为主"
+        },
+        {
+          "point_id": "M5P6",
+          "point_name": "文言文内容理解",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "理解文言文的主要内容和思想",
+          "prerequisites": [
+            "M5P5"
+          ],
+          "related_points": [],
+          "typical_problems": [
+            "概括文章内容",
+            "理解文章寓意",
+            "分析人物形象",
+            "回答内容理解题"
+          ],
+          "common_mistakes": [
+            "理解偏差",
+            "不能把握文章主旨",
+            "脱离原文主观臆断"
+          ],
+          "teaching_suggestions": "在理解字词句的基础上整体把握"
+        }
+      ]
+    },
+    {
+      "module_id": "M6",
+      "module_name": "写作表达",
+      "description": "各类作文写作技巧和能力",
+      "points": [
+        {
+          "point_id": "M6P1",
+          "point_name": "记叙文写作（记事）",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "清楚记叙一件事，做到有条理、详略得当",
+          "prerequisites": [
+            "M4P4",
+            "M4P5"
+          ],
+          "related_points": [
+            "M6P2"
+          ],
+          "typical_problems": [
+            "写一件难忘的事",
+            "记一次活动",
+            "写发生在身边的新鲜事"
+          ],
+          "common_mistakes": [
+            "六要素交代不清",
+            "详略不当（该详写的一笔带过）",
+            "缺少波澜（平铺直叙）",
+            "首尾不呼应"
+          ],
+          "teaching_suggestions": "列提纲，突出重点，注意详略"
+        },
+        {
+          "point_id": "M6P2",
+          "point_name": "记叙文写作（写人）",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "通过具体事例表现人物特点",
+          "prerequisites": [
+            "M4P6"
+          ],
+          "related_points": [
+            "M6P1"
+          ],
+          "typical_problems": [
+            "我的___（老师/朋友/亲人）",
+            "一个___的人",
+            "通过一件事表现人物品质"
+          ],
+          "common_mistakes": [
+            "人物形象模糊",
+            "缺少典型事例",
+            "描写方法单一",
+            "人物语言不符合身份"
+          ],
+          "teaching_suggestions": "选择典型事例，运用多种描写方法"
+        },
+        {
+          "point_id": "M6P3",
+          "point_name": "写景状物作文",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "抓住特点描写景物，表达真情实感",
+          "prerequisites": [
+            "M4P7",
+            "M3P5"
+          ],
+          "related_points": [
+            "M6P6"
+          ],
+          "typical_problems": [
+            "写一处景物",
+            "描写四季景色",
+            "我喜欢的植物/动物"
+          ],
+          "common_mistakes": [
+            "没有抓住特点",
+            "观察顺序混乱",
+            "缺少感受和联想",
+            "修辞手法运用不当"
+          ],
+          "teaching_suggestions": "按一定顺序，融入情感和联想"
+        },
+        {
+          "point_id": "M6P4",
+          "point_name": "想象作文",
+          "difficulty": 4,
+          "importance": 4,
+          "description": "展开合理想象，编写生动的故事",
+          "prerequisites": [],
+          "related_points": [
+            "M6P1"
+          ],
+          "typical_problems": [
+            "二十年后的我",
+            "未来的___",
+            "假如我是___",
+            "编写童话故事"
+          ],
+          "common_mistakes": [
+            "想象不合理",
+            "内容空洞",
+            "缺少具体描写",
+            "想象脱离生活"
+          ],
+          "teaching_suggestions": "想象要合理，情节要具体生动"
+        },
+        {
+          "point_id": "M6P5",
+          "point_name": "应用文写作",
+          "difficulty": 2,
+          "importance": 3,
+          "description": "掌握书信、通知、请假条等应用文格式",
+          "prerequisites": [],
+          "related_points": [],
+          "typical_problems": [
+            "给XXX的一封信",
+            "写通知",
+            "写建议书",
+            "写读书笔记"
+          ],
+          "common_mistakes": [
+            "格式不规范",
+            "称呼或署名错误",
+            "日期位置不对",
+            "内容表达不清"
+          ],
+          "teaching_suggestions": "熟记各类应用文格式，模仿练习"
+        },
+        {
+          "point_id": "M6P6",
+          "point_name": "作文的开头与结尾",
+          "difficulty": 3,
+          "importance": 5,
+          "description": "掌握多种开头和结尾方法",
+          "prerequisites": [],
+          "related_points": [
+            "M6P1",
+            "M6P2"
+          ],
+          "typical_problems": [
+            "开门见山式开头",
+            "环境描写式开头",
+            "设置悬念式开头",
+            "首尾呼应式结尾",
+            "抒情议论式结尾"
+          ],
+          "common_mistakes": [
+            "开头冗长",
+            "开头与正文脱节",
+            "结尾画蛇添足",
+            "结尾过于突兀"
+          ],
+          "teaching_suggestions": "积累优秀开头结尾，分类练习"
+        },
+        {
+          "point_id": "M6P7",
+          "point_name": "作文的细节描写",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "通过细节描写使文章生动具体",
+          "prerequisites": [
+            "M4P6"
+          ],
+          "related_points": [
+            "M6P2",
+            "M6P3"
+          ],
+          "typical_problems": [
+            "描写人物的动作细节",
+            "描写人物的神态变化",
+            "描写心理活动",
+            "场面细节描写"
+          ],
+          "common_mistakes": [
+            "细节不典型",
+            "描写过于笼统",
+            "细节过多冲淡主题",
+            "细节不真实"
+          ],
+          "teaching_suggestions": "从生活中捕捉细节，练习片段描写"
+        },
+        {
+          "point_id": "M6P8",
+          "point_name": "作文的选材与立意",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "选择合适材料，确立明确主题",
+          "prerequisites": [],
+          "related_points": [
+            "M6P1",
+            "M6P2"
+          ],
+          "typical_problems": [
+            "根据题目选择材料",
+            "多则材料选其一",
+            "同一主题选择不同材料",
+            "确定文章中心"
+          ],
+          "common_mistakes": [
+            "材料陈旧老套",
+            "材料与主题不符",
+            "立意不明确",
+            "立意肤浅"
+          ],
+          "teaching_suggestions": "选材要新颖真实，立意要积极健康"
+        },
+        {
+          "point_id": "M6P9",
+          "point_name": "作文的语言表达",
+          "difficulty": 4,
+          "importance": 5,
+          "description": "做到语言通顺、生动、有文采",
+          "prerequisites": [
+            "M2P2",
+            "M3P5"
+          ],
+          "related_points": [
+            "M6P7"
+          ],
+          "typical_problems": [
+            "运用成语、俗语",
+            "运用修辞手法",
+            "长短句结合",
+            "词语生动准确"
+          ],
+          "common_mistakes": [
+            "语句不通顺",
+            "词语搭配不当",
+            "滥用成语",
+            "语言平淡无味"
+          ],
+          "teaching_suggestions": "多读多积累，注意语言的锤炼"
+        },
+        {
+          "point_id": "M6P10",
+          "point_name": "作文的修改",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "学会自己修改作文",
+          "prerequisites": [
+            "M3P4"
+          ],
+          "related_points": [
+            "M6P9"
+          ],
+          "typical_problems": [
+            "修改错别字",
+            "修改病句",
+            "修改标点符号",
+            "调整段落顺序",
+            "增删内容"
+          ],
+          "common_mistakes": [
+            "不愿意修改",
+            "修改不彻底",
+            "越改越乱",
+            "只改字不改句"
+          ],
+          "teaching_suggestions": "培养修改习惯，掌握修改符号"
+        }
+      ]
+    },
+    {
+      "module_id": "M7",
+      "module_name": "口语交际",
+      "description": "听说能力和交际技巧",
+      "points": [
+        {
+          "point_id": "M7P1",
+          "point_name": "认真倾听与理解",
+          "difficulty": 2,
+          "importance": 4,
+          "description": "专注倾听，把握主要内容",
+          "prerequisites": [],
+          "related_points": [
+            "M7P2"
+          ],
+          "typical_problems": [
+            "听后复述主要内容",
+            "听后回答问题",
+            "听辨说话人的态度"
+          ],
+          "common_mistakes": [
+            "注意力不集中",
+            "只听细节不抓重点",
+            "打断别人说话"
+          ],
+          "teaching_suggestions": "培养倾听习惯，边听边记要点"
+        },
+        {
+          "point_id": "M7P2",
+          "point_name": "清楚表达与交流",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "有条理地表达，态度自然大方",
+          "prerequisites": [
+            "M7P1"
+          ],
+          "related_points": [],
+          "typical_problems": [
+            "介绍一个人或一件事",
+            "发表自己的看法",
+            "讲述一个故事",
+            "参与讨论发言"
+          ],
+          "common_mistakes": [
+            "表达无条理",
+            "声音太小或过于紧张",
+            "语言不连贯",
+            "不能针对话题交流"
+          ],
+          "teaching_suggestions": "多创造表达机会，鼓励大胆发言"
+        },
+        {
+          "point_id": "M7P3",
+          "point_name": "文明得体的交际",
+          "difficulty": 2,
+          "importance": 4,
+          "description": "使用礼貌用语，尊重他人",
+          "prerequisites": [],
+          "related_points": [
+            "M7P2"
+          ],
+          "typical_problems": [
+            "角色扮演（劝说、安慰、道歉）",
+            "接打电话",
+            "与人商量事情",
+            "拒绝他人的请求"
+          ],
+          "common_mistakes": [
+            "语言不礼貌",
+            "不分场合大声说话",
+            "不顾及他人感受",
+            "不会使用敬语"
+          ],
+          "teaching_suggestions": "情境模拟练习，强化礼貌意识"
+        }
+      ]
+    },
+    {
+      "module_id": "M8",
+      "module_name": "综合性学习",
+      "description": "语文实践活动和综合能力",
+      "points": [
+        {
+          "point_id": "M8P1",
+          "point_name": "信息的搜集与整理",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "从多种渠道获取信息并整理",
+          "prerequisites": [],
+          "related_points": [
+            "M8P2"
+          ],
+          "typical_problems": [
+            "查找资料",
+            "整理资料",
+            "制作资料卡片",
+            "分类汇总信息"
+          ],
+          "common_mistakes": [
+            "资料来源单一",
+            "不会筛选有用信息",
+            "整理无条理",
+            "抄袭不注明出处"
+          ],
+          "teaching_suggestions": "教会使用工具书、网络等查找方法"
+        },
+        {
+          "point_id": "M8P2",
+          "point_name": "阅读与实践活动",
+          "difficulty": 3,
+          "importance": 4,
+          "description": "参与阅读活动，撰写读书笔记",
+          "prerequisites": [
+            "M8P1"
+          ],
+          "related_points": [
+            "M6P5"
+          ],
+          "typical_problems": [
+            "写读后感",
+            "制作读书小报",
+            "参与读书交流会",
+            "推荐一本书"
+          ],
+          "common_mistakes": [
+            "读后感变成内容复述",
+            "没有真实感受",
+            "形式大于内容",
+            "不能准确表达观点"
+          ],
+          "teaching_suggestions": "开展多样化的阅读活动，分享交流"
+        },
+        {
+          "point_id": "M8P3",
+          "point_name": "语文实践活动",
+          "difficulty": 3,
+          "importance": 3,
+          "description": "参与调查、采访、办手抄报等活动",
+          "prerequisites": [
+            "M8P1"
+          ],
+          "related_points": [
+            "M7P2"
+          ],
+          "typical_problems": [
+            "设计活动方案",
+            "进行社会调查",
+            "采访并记录",
+            "办专题手抄报"
+          ],
+          "common_mistakes": [
+            "活动流于形式",
+            "准备不充分",
+            "不会设计问题",
+            "成果展示不理想"
+          ],
+          "teaching_suggestions": "提供实践机会，强化合作意识"
+        }
+      ]
+    }
+  ],
+  "knowledge_graph": {
+    "description": "知识点之间的依赖和关联关系",
+    "key_paths": [
+      {
+        "path_name": "基础积累路径",
+        "points": [
+          "M1P1",
+          "M2P1",
+          "M2P2",
+          "M3P1",
+          "M3P5"
+        ]
+      },
+      {
+        "path_name": "阅读理解路径",
+        "points": [
+          "M4P1",
+          "M4P2",
+          "M4P3",
+          "M4P6",
+          "M4P7"
+        ]
+      },
+      {
+        "path_name": "写作表达路径",
+        "points": [
+          "M4P4",
+          "M6P1",
+          "M6P2",
+          "M6P6",
+          "M6P7",
+          "M6P9"
+        ]
+      },
+      {
+        "path_name": "古诗文路径",
+        "points": [
+          "M5P1",
+          "M5P2",
+          "M5P4",
+          "M5P5",
+          "M5P6"
+        ]
+      }
+    ]
+  },
+  "teaching_sequence": {
+    "first_semester": [
+      "M1P1",
+      "M1P2",
+      "M2P1",
+      "M2P2",
+      "M3P1",
+      "M3P2",
+      "M3P3",
+      "M3P5",
+      "M4P1",
+      "M4P2",
+      "M4P4",
+      "M4P6",
+      "M5P1",
+      "M5P2",
+      "M5P4",
+      "M6P1",
+      "M6P2",
+      "M6P6",
+      "M7P1",
+      "M7P3",
+      "M8P1",
+      "M8P2"
+    ],
+    "second_semester": [
+      "M1P3",
+      "M2P3",
+      "M2P4",
+      "M3P4",
+      "M3P6",
+      "M4P3",
+      "M4P5",
+      "M4P7",
+      "M4P8",
+      "M4P9",
+      "M4P10",
+      "M5P3",
+      "M5P5",
+      "M5P6",
+      "M6P3",
+      "M6P4",
+      "M6P5",
+      "M6P7",
+      "M6P8",
+      "M6P9",
+      "M6P10",
+      "M7P2",
+      "M8P3"
+    ]
+  },
+  "assessment_framework": {
+    "dimensions": [
+      {
+        "dimension": "识字写字",
+        "weight": 0.1,
+        "points": [
+          "M1P1",
+          "M1P2",
+          "M1P3"
+        ]
+      },
+      {
+        "dimension": "积累运用",
+        "weight": 0.2,
+        "points": [
+          "M2P1",
+          "M2P2",
+          "M2P3",
+          "M2P4",
+          "M3P1",
+          "M3P2",
+          "M3P3",
+          "M3P4",
+          "M3P5",
+          "M3P6"
+        ]
+      },
+      {
+        "dimension": "阅读理解",
+        "weight": 0.35,
+        "points": [
+          "M4P1",
+          "M4P2",
+          "M4P3",
+          "M4P4",
+          "M4P5",
+          "M4P6",
+          "M4P7",
+          "M4P8",
+          "M4P9",
+          "M4P10",
+          "M5P1",
+          "M5P2",
+          "M5P3",
+          "M5P4",
+          "M5P5",
+          "M5P6"
+        ]
+      },
+      {
+        "dimension": "写作表达",
+        "weight": 0.3,
+        "points": [
+          "M6P1",
+          "M6P2",
+          "M6P3",
+          "M6P4",
+          "M6P5",
+          "M6P6",
+          "M6P7",
+          "M6P8",
+          "M6P9",
+          "M6P10"
+        ]
+      },
+      {
+        "dimension": "口语交际与综合性学习",
+        "weight": 0.05,
+        "points": [
+          "M7P1",
+          "M7P2",
+          "M7P3",
+          "M8P1",
+          "M8P2",
+          "M8P3"
+        ]
+      }
+    ]
+  },
+  "learning_resources": {
+    "required_texts": [
+      "人教版五年级语文上册",
+      "人教版五年级语文下册"
+    ],
+    "recommended_readings": [
+      "《草房子》",
+      "《城南旧事》",
+      "《窗边的小豆豆》",
+      "《夏洛的网》",
+      "《中国古代寓言故事》",
+      "《上下五千年》"
+    ],
+    "online_resources": [
+      "中小学语文教学资源网",
+      "小学生必背古诗词动画",
+      "汉字书写规范教学视频"
+    ]
+  }
+}

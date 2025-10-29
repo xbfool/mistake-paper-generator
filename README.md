@@ -1,10 +1,19 @@
-# 🎓 智能错题卷生成器 & 学生学习分析系统
+# 🎓 智能学习系统 v2.0
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Claude](https://img.shields.io/badge/Powered%20by-Claude%20AI-orange.svg)](https://claude.ai)
+[![Version](https://img.shields.io/badge/Version-2.0-brightgreen.svg)](#)
 
-> 基于 Claude AI 的智能教育辅助工具，自动识别试卷错题、生成练习题、分析学习情况
+> 基于 Claude AI 的**全科全年级智能学习平台**
+> 错题识别 + 知识图谱 + 智能诊断 + 个性化推荐 + 自动出题
+
+### 🆕 v2.0 重大升级
+- ✨ 完整的小学数学知识点体系（1-3年级，109个知识点）
+- 🔍 智能诊断系统 - 检测实际水平，回溯薄弱前置知识
+- 🎯 每日智能推荐 - 4种推荐方案，一键生成练习
+- 🔗 知识依赖图谱 - 系统化学习，不跳步
+- 🤖 AI自动出题 - 根据知识点和难度智能生成
 
 [English](#) | [中文文档](#)
 

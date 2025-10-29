@@ -1,0 +1,1163 @@
+{
+  "subject": "语文",
+  "grade": "6年级",
+  "semester": "全学年",
+  "total_points": 52,
+  "modules": [
+    {
+      "module_id": "M1",
+      "module_name": "识字与写字",
+      "description": "汉字识记、书写规范与汉字文化",
+      "points": [
+        {
+          "point_id": "M1P1",
+          "point_name": "常用汉字识记",
+          "description": "认识本学段3000个常用汉字，掌握2500个书写",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "能认读本年级要求的生字",
+            "理解字义并能正确运用",
+            "掌握多音字、形近字"
+          ],
+          "prerequisites": [
+            "M1P2"
+          ],
+          "related_points": [
+            "M2P1"
+          ],
+          "estimated_hours": 8,
+          "tags": [
+            "基础",
+            "识字"
+          ]
+        },
+        {
+          "point_id": "M1P2",
+          "point_name": "汉字书写规范",
+          "description": "正确、工整地书写汉字，掌握笔顺规则",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握正确的书写姿势",
+            "按照笔顺规则书写",
+            "字迹工整、布局合理"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M1P1",
+            "M1P3"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "基础",
+            "书写"
+          ]
+        },
+        {
+          "point_id": "M1P3",
+          "point_name": "汉字结构与部首",
+          "description": "理解汉字的结构特点，掌握部首检字法",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "识别汉字的结构类型",
+            "掌握常用部首及其含义",
+            "能使用部首检字法查字典"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M1P1"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "工具",
+            "字典"
+          ]
+        },
+        {
+          "point_id": "M1P4",
+          "point_name": "形近字与同音字辨析",
+          "description": "区分易混淆的形近字和同音字",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "辨别常见形近字",
+            "区分同音字的不同用法",
+            "避免错别字"
+          ],
+          "prerequisites": [
+            "M1P1"
+          ],
+          "related_points": [
+            "M2P1"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "辨析",
+            "易错点"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M2",
+      "module_name": "词语积累与运用",
+      "description": "词语理解、成语俗语、词语运用",
+      "points": [
+        {
+          "point_id": "M2P1",
+          "point_name": "词语理解与辨析",
+          "description": "理解词语含义，辨析近义词、反义词",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "理解词语的基本义和引申义",
+            "辨析近义词的细微差别",
+            "根据语境选择恰当词语"
+          ],
+          "prerequisites": [
+            "M1P1"
+          ],
+          "related_points": [
+            "M2P2",
+            "M3P2"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "词汇",
+            "辨析"
+          ]
+        },
+        {
+          "point_id": "M2P2",
+          "point_name": "成语积累与运用",
+          "description": "积累常用成语，理解成语含义和用法",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "掌握200个常用成语",
+            "理解成语的典故和含义",
+            "能在写作中恰当运用成语"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M2P3",
+            "M6P3"
+          ],
+          "estimated_hours": 8,
+          "tags": [
+            "成语",
+            "积累"
+          ]
+        },
+        {
+          "point_id": "M2P3",
+          "point_name": "谚语、歇后语",
+          "description": "了解谚语、歇后语的特点并积累",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "理解谚语的含义和作用",
+            "掌握常见歇后语",
+            "体会民间语言的智慧"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M2P2"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "俗语",
+            "文化"
+          ]
+        },
+        {
+          "point_id": "M2P4",
+          "point_name": "关联词语运用",
+          "description": "掌握常用关联词语的用法",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "识别不同的关联关系",
+            "正确使用关联词语",
+            "理解复句的逻辑关系"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M3P3"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "关联词",
+            "语法"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M3",
+      "module_name": "句子理解与运用",
+      "description": "句子类型、修辞手法、句式变换",
+      "points": [
+        {
+          "point_id": "M3P1",
+          "point_name": "句子成分分析",
+          "description": "理解句子的基本成分（主谓宾定状补）",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "识别句子的主要成分",
+            "理解句子的结构",
+            "分析句子成分的作用"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M3P2"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "语法",
+            "句子成分"
+          ]
+        },
+        {
+          "point_id": "M3P2",
+          "point_name": "扩句与缩句",
+          "description": "掌握扩句和缩句的方法",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "能适当扩充句子内容",
+            "提炼句子主干",
+            "保持句意完整"
+          ],
+          "prerequisites": [
+            "M3P1"
+          ],
+          "related_points": [
+            "M3P3"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "句式",
+            "训练"
+          ]
+        },
+        {
+          "point_id": "M3P3",
+          "point_name": "句式变换",
+          "description": "陈述句、疑问句、反问句、感叹句的互换",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "识别不同句式",
+            "进行句式互换",
+            "保持句意不变"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M3P4"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "句式",
+            "变换"
+          ]
+        },
+        {
+          "point_id": "M3P4",
+          "point_name": "修辞手法",
+          "description": "掌握比喻、拟人、排比、夸张、设问、反问等修辞",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "识别常见修辞手法",
+            "理解修辞的表达效果",
+            "在写作中运用修辞手法"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P3",
+            "M6P3"
+          ],
+          "estimated_hours": 7,
+          "tags": [
+            "修辞",
+            "表达技巧"
+          ]
+        },
+        {
+          "point_id": "M3P5",
+          "point_name": "修改病句",
+          "description": "识别并修改常见病句",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "识别成分残缺、搭配不当等病句",
+            "掌握修改病句的方法",
+            "提高语言表达的准确性"
+          ],
+          "prerequisites": [
+            "M3P1"
+          ],
+          "related_points": [
+            "M3P2"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "病句",
+            "语法"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M4",
+      "module_name": "阅读理解",
+      "description": "现代文阅读、文体特征、阅读方法",
+      "points": [
+        {
+          "point_id": "M4P1",
+          "point_name": "记叙文阅读",
+          "description": "理解记叙文的六要素和记叙顺序",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "把握记叙文六要素",
+            "理解记叙顺序",
+            "概括文章主要内容"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P5",
+            "M6P1"
+          ],
+          "estimated_hours": 8,
+          "tags": [
+            "阅读",
+            "记叙文"
+          ]
+        },
+        {
+          "point_id": "M4P2",
+          "point_name": "说明文阅读",
+          "description": "理解说明方法和说明顺序",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "识别说明方法",
+            "理解说明顺序",
+            "把握说明对象的特征"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P5",
+            "M6P2"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "阅读",
+            "说明文"
+          ]
+        },
+        {
+          "point_id": "M4P3",
+          "point_name": "写景状物文章阅读",
+          "description": "把握写景状物的方法和情感",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "理解写景状物的顺序",
+            "体会文章表达的情感",
+            "学习描写方法"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M3P4",
+            "M4P1"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "阅读",
+            "写景"
+          ]
+        },
+        {
+          "point_id": "M4P4",
+          "point_name": "人物描写方法",
+          "description": "理解外貌、语言、动作、心理等描写方法",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "识别不同的人物描写方法",
+            "分析描写的作用",
+            "把握人物形象特点"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P1",
+            "M6P1"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "阅读",
+            "人物描写"
+          ]
+        },
+        {
+          "point_id": "M4P5",
+          "point_name": "文章主题思想",
+          "description": "概括文章中心思想，理解作者情感",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "概括文章主要内容",
+            "归纳中心思想",
+            "体会作者情感态度"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P1",
+            "M4P7"
+          ],
+          "estimated_hours": 7,
+          "tags": [
+            "阅读",
+            "主题"
+          ]
+        },
+        {
+          "point_id": "M4P6",
+          "point_name": "段落层次划分",
+          "description": "理解文章结构，划分段落层次",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "理解文章的结构方式",
+            "划分段落和层次",
+            "概括段落大意"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P5"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "阅读",
+            "结构"
+          ]
+        },
+        {
+          "point_id": "M4P7",
+          "point_name": "重点词句理解",
+          "description": "理解文中重点词句的含义和作用",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "理解重点词语在文中的含义",
+            "分析关键句子的作用",
+            "体会表达效果"
+          ],
+          "prerequisites": [
+            "M2P1"
+          ],
+          "related_points": [
+            "M4P5"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "阅读",
+            "理解"
+          ]
+        },
+        {
+          "point_id": "M4P8",
+          "point_name": "阅读方法与技巧",
+          "description": "掌握默读、浏览、精读等阅读方法",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "根据需要选择阅读方法",
+            "提高阅读速度",
+            "培养良好阅读习惯"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M4P1"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "方法",
+            "技巧"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M5",
+      "module_name": "古诗文",
+      "description": "古诗词鉴赏、文言文阅读、传统文化",
+      "points": [
+        {
+          "point_id": "M5P1",
+          "point_name": "古诗词背诵与默写",
+          "description": "背诵指定古诗词，准确默写",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "背诵本年级要求的古诗词",
+            "准确默写不出错",
+            "积累古诗词名句"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M5P2"
+          ],
+          "estimated_hours": 10,
+          "tags": [
+            "古诗",
+            "背诵"
+          ]
+        },
+        {
+          "point_id": "M5P2",
+          "point_name": "古诗词理解与鉴赏",
+          "description": "理解诗意，体会诗人情感",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "理解诗词大意",
+            "体会诗人情感",
+            "欣赏诗词的意境美"
+          ],
+          "prerequisites": [
+            "M5P1"
+          ],
+          "related_points": [
+            "M5P3"
+          ],
+          "estimated_hours": 8,
+          "tags": [
+            "古诗",
+            "鉴赏"
+          ]
+        },
+        {
+          "point_id": "M5P3",
+          "point_name": "古诗词表现手法",
+          "description": "了解常见的诗歌表现手法",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "识别借景抒情、托物言志等手法",
+            "理解表现手法的作用",
+            "提高诗歌鉴赏能力"
+          ],
+          "prerequisites": [
+            "M5P2"
+          ],
+          "related_points": [
+            "M3P4"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "古诗",
+            "手法"
+          ]
+        },
+        {
+          "point_id": "M5P4",
+          "point_name": "文言文阅读入门",
+          "description": "初步接触浅显文言文，理解基本文意",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "理解简单文言词语",
+            "读懂浅显文言文",
+            "了解文言文的特点"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M5P5"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "文言文",
+            "基础"
+          ]
+        },
+        {
+          "point_id": "M5P5",
+          "point_name": "文言实词与虚词",
+          "description": "积累常见文言实词和虚词",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "理解常见文言实词",
+            "掌握基本文言虚词用法",
+            "积累文言词汇"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M5P4"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "文言文",
+            "词汇"
+          ]
+        },
+        {
+          "point_id": "M5P6",
+          "point_name": "传统文化常识",
+          "description": "了解传统节日、风俗、神话故事等",
+          "difficulty": "易",
+          "importance": "中",
+          "learning_objectives": [
+            "了解传统节日及习俗",
+            "知道经典神话故事",
+            "增强文化认同感"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M5P2"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "文化",
+            "常识"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M6",
+      "module_name": "写作表达",
+      "description": "记叙文、应用文、想象作文等写作训练",
+      "points": [
+        {
+          "point_id": "M6P1",
+          "point_name": "记叙文写作",
+          "description": "写人、记事、写景类记叙文写作",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "写清楚事情的起因经过结果",
+            "刻画人物形象",
+            "内容具体、条理清楚"
+          ],
+          "prerequisites": [
+            "M4P1",
+            "M4P4"
+          ],
+          "related_points": [
+            "M6P3",
+            "M6P5"
+          ],
+          "estimated_hours": 12,
+          "tags": [
+            "写作",
+            "记叙文"
+          ]
+        },
+        {
+          "point_id": "M6P2",
+          "point_name": "说明文写作",
+          "description": "介绍事物或说明事理的文章写作",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "抓住事物特征介绍",
+            "运用恰当的说明方法",
+            "语言准确、条理清晰"
+          ],
+          "prerequisites": [
+            "M4P2"
+          ],
+          "related_points": [
+            "M6P5"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "写作",
+            "说明文"
+          ]
+        },
+        {
+          "point_id": "M6P3",
+          "point_name": "写作语言表达",
+          "description": "提高语言的生动性和准确性",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "运用修辞手法增强表达效果",
+            "语言生动具体",
+            "用词准确恰当"
+          ],
+          "prerequisites": [
+            "M3P4",
+            "M2P2"
+          ],
+          "related_points": [
+            "M6P1"
+          ],
+          "estimated_hours": 8,
+          "tags": [
+            "写作",
+            "语言"
+          ]
+        },
+        {
+          "point_id": "M6P4",
+          "point_name": "想象作文与童话",
+          "description": "发挥想象力创作想象类作文",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "展开合理想象",
+            "创作富有童趣的故事",
+            "表达积极的主题"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M6P1"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "写作",
+            "想象"
+          ]
+        },
+        {
+          "point_id": "M6P5",
+          "point_name": "作文结构布局",
+          "description": "掌握作文的开头、结尾和过渡",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "设计精彩的开头和结尾",
+            "安排合理的段落结构",
+            "做好段落间的过渡"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M6P1",
+            "M6P2"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "写作",
+            "结构"
+          ]
+        },
+        {
+          "point_id": "M6P6",
+          "point_name": "应用文写作",
+          "description": "书信、通知、建议书等应用文写作",
+          "difficulty": "易",
+          "importance": "中",
+          "learning_objectives": [
+            "掌握应用文的格式",
+            "写清楚目的和内容",
+            "语言得体、格式规范"
+          ],
+          "prerequisites": [],
+          "related_points": [],
+          "estimated_hours": 4,
+          "tags": [
+            "写作",
+            "应用文"
+          ]
+        },
+        {
+          "point_id": "M6P7",
+          "point_name": "读书笔记与读后感",
+          "description": "写读书笔记和读后感",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "概括书籍主要内容",
+            "写出真实感受和体会",
+            "联系实际谈启示"
+          ],
+          "prerequisites": [
+            "M4P5"
+          ],
+          "related_points": [
+            "M6P1"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "写作",
+            "读后感"
+          ]
+        },
+        {
+          "point_id": "M6P8",
+          "point_name": "作文修改",
+          "description": "学会修改和完善自己的作文",
+          "difficulty": "中",
+          "importance": "高",
+          "learning_objectives": [
+            "发现作文中的问题",
+            "从内容和语言两方面修改",
+            "养成修改作文的习惯"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M3P5",
+            "M6P1"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "写作",
+            "修改"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M7",
+      "module_name": "口语交际",
+      "description": "倾听、表达、交流能力培养",
+      "points": [
+        {
+          "point_id": "M7P1",
+          "point_name": "讲述与复述",
+          "description": "清楚地讲述见闻和经历，复述故事",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "有条理地讲述",
+            "抓住要点复述",
+            "语言清晰流畅"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M7P3"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "口语",
+            "表达"
+          ]
+        },
+        {
+          "point_id": "M7P2",
+          "point_name": "讨论与辩论",
+          "description": "参与小组讨论，表达自己的观点",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "清楚表达自己的观点",
+            "倾听并尊重他人意见",
+            "进行有理有据的辩论"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M7P4"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "口语",
+            "讨论"
+          ]
+        },
+        {
+          "point_id": "M7P3",
+          "point_name": "演讲与朗诵",
+          "description": "进行简短演讲，有感情地朗诵",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "准备并完成简短演讲",
+            "有感情地朗诵课文或诗歌",
+            "注意语气、语调、语速"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M7P1"
+          ],
+          "estimated_hours": 5,
+          "tags": [
+            "口语",
+            "演讲"
+          ]
+        },
+        {
+          "point_id": "M7P4",
+          "point_name": "倾听与交流",
+          "description": "培养良好的倾听习惯和交流能力",
+          "difficulty": "易",
+          "importance": "中",
+          "learning_objectives": [
+            "专注倾听他人发言",
+            "把握发言要点",
+            "礼貌得体地交流"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M7P2"
+          ],
+          "estimated_hours": 3,
+          "tags": [
+            "口语",
+            "倾听"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M8",
+      "module_name": "综合性学习",
+      "description": "专题研究、信息搜集、综合实践",
+      "points": [
+        {
+          "point_id": "M8P1",
+          "point_name": "信息搜集与整理",
+          "description": "通过多种途径搜集和整理资料",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "利用图书馆、网络搜集资料",
+            "筛选有用信息",
+            "整理并分类资料"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M8P2"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "综合",
+            "信息"
+          ]
+        },
+        {
+          "point_id": "M8P2",
+          "point_name": "专题研究报告",
+          "description": "开展专题研究，撰写简单的研究报告",
+          "difficulty": "中",
+          "importance": "中",
+          "learning_objectives": [
+            "确定研究主题",
+            "搜集整理资料",
+            "撰写研究报告"
+          ],
+          "prerequisites": [
+            "M8P1"
+          ],
+          "related_points": [
+            "M6P2"
+          ],
+          "estimated_hours": 6,
+          "tags": [
+            "综合",
+            "研究"
+          ]
+        },
+        {
+          "point_id": "M8P3",
+          "point_name": "小组合作学习",
+          "description": "在小组活动中学会合作与分工",
+          "difficulty": "易",
+          "importance": "中",
+          "learning_objectives": [
+            "明确分工协作完成任务",
+            "学会沟通和协调",
+            "展示小组成果"
+          ],
+          "prerequisites": [],
+          "related_points": [
+            "M7P2",
+            "M8P2"
+          ],
+          "estimated_hours": 4,
+          "tags": [
+            "综合",
+            "合作"
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_path": {
+    "suggested_sequence": [
+      "M1-识字与写字",
+      "M2-词语积累与运用",
+      "M3-句子理解与运用",
+      "M4-阅读理解",
+      "M5-古诗文",
+      "M6-写作表达",
+      "M7-口语交际",
+      "M8-综合性学习"
+    ],
+    "core_points": [
+      "M1P1-常用汉字识记",
+      "M2P1-词语理解与辨析",
+      "M3P4-修辞手法",
+      "M4P1-记叙文阅读",
+      "M4P5-文章主题思想",
+      "M5P1-古诗词背诵与默写",
+      "M5P2-古诗词理解与鉴赏",
+      "M6P1-记叙文写作",
+      "M6P3-写作语言表达"
+    ],
+    "difficulty_progression": {
+      "beginner": [
+        "M1P2",
+        "M1P3",
+        "M2P3",
+        "M5P6",
+        "M6P6",
+        "M7P4"
+      ],
+      "intermediate": [
+        "M1P1",
+        "M1P4",
+        "M2P1",
+        "M2P2",
+        "M2P4",
+        "M3P1",
+        "M3P2",
+        "M3P3",
+        "M3P4",
+        "M3P5",
+        "M4P1",
+        "M4P2",
+        "M4P3",
+        "M4P4",
+        "M4P5",
+        "M4P6",
+        "M4P7",
+        "M5P1",
+        "M5P2",
+        "M5P3",
+        "M5P4",
+        "M5P5",
+        "M6P1",
+        "M6P2",
+        "M6P3",
+        "M6P4",
+        "M6P5",
+        "M6P7",
+        "M6P8",
+        "M7P1",
+        "M7P2",
+        "M7P3",
+        "M8P1",
+        "M8P2"
+      ],
+      "advanced": [
+        "M4P8",
+        "M8P3"
+      ]
+    }
+  },
+  "assessment_standards": {
+    "识字写字": {
+      "weight": 0.15,
+      "criteria": [
+        "认读准确",
+        "书写规范",
+        "理解字义"
+      ]
+    },
+    "阅读理解": {
+      "weight": 0.35,
+      "criteria": [
+        "理解内容",
+        "把握主题",
+        "分析方法",
+        "体会情感"
+      ]
+    },
+    "古诗文": {
+      "weight": 0.15,
+      "criteria": [
+        "背诵默写",
+        "理解诗意",
+        "体会情感"
+      ]
+    },
+    "写作表达": {
+      "weight": 0.3,
+      "criteria": [
+        "内容具体",
+        "条理清楚",
+        "语言生动",
+        "结构完整"
+      ]
+    },
+    "口语交际": {
+      "weight": 0.05,
+      "criteria": [
+        "表达清晰",
+        "态度大方",
+        "倾听专注"
+      ]
+    }
+  },
+  "teaching_resources": {
+    "textbooks": [
+      "人教版六年级语文上下册",
+      "统编版小学语文六年级"
+    ],
+    "reference_books": [
+      "小学生必背古诗词75+80首",
+      "小学语文阅读训练80篇",
+      "小学生分类作文",
+      "成语词典",
+      "现代汉语词典（小学版）"
+    ],
+    "online_resources": [
+      "国家中小学智慧教育平台",
+      "中国诗词大会",
+      "小学语文学习网",
+      "汉字听写大会"
+    ]
+  },
+  "exam_focus": {
+    "重点题型": [
+      "汉字识记与书写",
+      "词语理解与运用",
+      "句子修改与变换",
+      "课内外阅读理解",
+      "古诗词默写与赏析",
+      "习作"
+    ],
+    "常考内容": [
+      "形近字、同音字辨析",
+      "成语运用",
+      "修辞手法识别",
+      "句式变换",
+      "修改病句",
+      "段落大意概括",
+      "中心思想归纳",
+      "重点句理解",
+      "古诗词理解与背诵",
+      "记叙文写作"
+    ],
+    "易错点": [
+      "错别字",
+      "成语误用",
+      "病句识别",
+      "缩句保留否定词",
+      "标点符号使用",
+      "古诗词默写错字",
+      "阅读答题不全面",
+      "作文离题跑题"
+    ]
+  },
+  "notes": [
+    "本配置适用于小学六年级全学年语文教学",
+    "知识点安排符合统编版和人教版教材要求",
+    "注重读写结合，强化语言运用能力",
+    "关注小升初衔接，为初中学习打基础",
+    "建议每周安排8-9课时进行系统学习",
+    "重视经典阅读和传统文化教育",
+    "培养独立阅读和自主写作能力",
+    "加强口语交际和综合性学习活动"
+  ]
+}

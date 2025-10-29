@@ -1,0 +1,1106 @@
+{
+  "grade": "3",
+  "subject": "语文",
+  "semester": "全学年",
+  "total_points": 35,
+  "modules": [
+    {
+      "module_id": "M1",
+      "module_name": "识字与写字",
+      "knowledge_points": [
+        {
+          "point_id": "KP001",
+          "point_name": "认识常用汉字",
+          "description": "能认读常用汉字2500个左右，会写2000个",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "掌握本学期生字的音、形、义",
+            "能正确书写生字，笔顺规范",
+            "理解生字在不同语境中的含义"
+          ],
+          "prerequisites": [
+            "二年级识字基础"
+          ],
+          "related_points": [
+            "KP002",
+            "KP008"
+          ],
+          "typical_questions": [
+            "看拼音写词语",
+            "形近字辨析",
+            "多音字组词"
+          ],
+          "teaching_suggestions": "通过字理识字、归类识字等方法提高识字效率，每天坚持认字练字15分钟"
+        },
+        {
+          "point_id": "KP002",
+          "point_name": "笔画与笔顺规则",
+          "description": "掌握汉字基本笔画和正确笔顺规则",
+          "difficulty": "easy",
+          "importance": "high",
+          "learning_objectives": [
+            "掌握横、竖、撇、捺、点等基本笔画",
+            "理解先横后竖、先撇后捺等笔顺规则",
+            "能按正确笔顺书写汉字"
+          ],
+          "prerequisites": [
+            "一、二年级写字基础"
+          ],
+          "related_points": [
+            "KP001",
+            "KP003"
+          ],
+          "typical_questions": [
+            "写出汉字的笔顺",
+            "判断笔顺是否正确",
+            "按笔顺描红"
+          ],
+          "teaching_suggestions": "通过动画演示、书空练习等方式强化笔顺记忆"
+        },
+        {
+          "point_id": "KP003",
+          "point_name": "汉字间架结构",
+          "description": "认识汉字的间架结构，掌握书写规范",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "识别独体字、左右结构、上下结构、半包围结构等",
+            "掌握各种结构汉字的书写要领",
+            "能把字写得匀称美观"
+          ],
+          "prerequisites": [
+            "KP002"
+          ],
+          "related_points": [
+            "KP001",
+            "KP002"
+          ],
+          "typical_questions": [
+            "判断汉字的结构类型",
+            "临摹范字",
+            "指出字的结构特点"
+          ],
+          "teaching_suggestions": "通过田字格练习，培养学生观察字形和布局的能力"
+        },
+        {
+          "point_id": "KP004",
+          "point_name": "部首查字法",
+          "description": "学会使用部首查字法查字典",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "认识常用部首及其含义",
+            "掌握部首查字法的步骤",
+            "能独立使用字典查找生字"
+          ],
+          "prerequisites": [
+            "KP001"
+          ],
+          "related_points": [
+            "KP005"
+          ],
+          "typical_questions": [
+            "说出字的部首",
+            "用部首查字法查字典",
+            "判断部首归类是否正确"
+          ],
+          "teaching_suggestions": "提供实际查字典的机会，培养自主学习能力"
+        }
+      ]
+    },
+    {
+      "module_id": "M2",
+      "module_name": "词语与句子",
+      "knowledge_points": [
+        {
+          "point_id": "KP005",
+          "point_name": "词语的理解与积累",
+          "description": "理解词语含义，积累常用词语",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "理解课文中重点词语的意思",
+            "能根据语境理解词语含义",
+            "积累成语、四字词语等"
+          ],
+          "prerequisites": [
+            "KP001"
+          ],
+          "related_points": [
+            "KP006",
+            "KP015"
+          ],
+          "typical_questions": [
+            "解释词语意思",
+            "选词填空",
+            "词语搭配",
+            "近义词、反义词"
+          ],
+          "teaching_suggestions": "引导学生在阅读中积累词语，建立词语本"
+        },
+        {
+          "point_id": "KP006",
+          "point_name": "近义词与反义词",
+          "description": "掌握常用词语的近义词和反义词",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "能找出词语的近义词和反义词",
+            "理解近义词之间的细微差别",
+            "在表达中灵活运用"
+          ],
+          "prerequisites": [
+            "KP005"
+          ],
+          "related_points": [
+            "KP005",
+            "KP028"
+          ],
+          "typical_questions": [
+            "写出近义词或反义词",
+            "选择恰当的近义词填空",
+            "用反义词造句"
+          ],
+          "teaching_suggestions": "通过比较辨析，培养学生的语感和表达能力"
+        },
+        {
+          "point_id": "KP007",
+          "point_name": "多音字与形近字",
+          "description": "区分常用多音字和形近字",
+          "difficulty": "hard",
+          "importance": "high",
+          "learning_objectives": [
+            "掌握常用多音字的不同读音和用法",
+            "区分形近字的异同",
+            "在具体语境中正确使用"
+          ],
+          "prerequisites": [
+            "KP001"
+          ],
+          "related_points": [
+            "KP005"
+          ],
+          "typical_questions": [
+            "多音字组词",
+            "选择正确读音",
+            "形近字辨析组词"
+          ],
+          "teaching_suggestions": "通过归类整理和情境练习强化记忆"
+        },
+        {
+          "point_id": "KP008",
+          "point_name": "成语的学习与运用",
+          "description": "积累成语，理解成语含义及用法",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "积累50个左右的常用成语",
+            "理解成语的基本含义",
+            "能在表达中恰当使用成语"
+          ],
+          "prerequisites": [
+            "KP005"
+          ],
+          "related_points": [
+            "KP017",
+            "KP028"
+          ],
+          "typical_questions": [
+            "成语填空",
+            "成语释义",
+            "根据意思写成语",
+            "用成语造句"
+          ],
+          "teaching_suggestions": "结合故事讲解成语，加深理解和记忆"
+        },
+        {
+          "point_id": "KP009",
+          "point_name": "句子的认识",
+          "description": "认识句子的基本类型和构成",
+          "difficulty": "easy",
+          "importance": "high",
+          "learning_objectives": [
+            "认识陈述句、疑问句、感叹句、祈使句",
+            "理解句子的基本成分",
+            "能正确使用标点符号"
+          ],
+          "prerequisites": [
+            "KP005"
+          ],
+          "related_points": [
+            "KP010",
+            "KP011",
+            "KP012"
+          ],
+          "typical_questions": [
+            "判断句子类型",
+            "给句子加标点",
+            "改写句子"
+          ],
+          "teaching_suggestions": "通过朗读体会不同句式的语气和作用"
+        },
+        {
+          "point_id": "KP010",
+          "point_name": "扩句与缩句",
+          "description": "学会给句子增加修饰和提取主干",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "能给句子添加恰当的修饰成分",
+            "能提取句子的主要成分",
+            "理解句子扩缩的方法"
+          ],
+          "prerequisites": [
+            "KP009"
+          ],
+          "related_points": [
+            "KP011",
+            "KP028"
+          ],
+          "typical_questions": [
+            "扩句练习",
+            "缩句练习",
+            "句子改写"
+          ],
+          "teaching_suggestions": "从简单句开始，循序渐进地练习"
+        },
+        {
+          "point_id": "KP011",
+          "point_name": "修改病句",
+          "description": "发现并修改句子中的常见错误",
+          "difficulty": "hard",
+          "importance": "high",
+          "learning_objectives": [
+            "识别成分残缺、搭配不当等常见病句",
+            "掌握修改病句的基本方法",
+            "能正确修改简单病句"
+          ],
+          "prerequisites": [
+            "KP009"
+          ],
+          "related_points": [
+            "KP010",
+            "KP012"
+          ],
+          "typical_questions": [
+            "找出病句并修改",
+            "判断句子是否有语病",
+            "选择修改正确的句子"
+          ],
+          "teaching_suggestions": "分类讲解常见病句类型，多做练习"
+        },
+        {
+          "point_id": "KP012",
+          "point_name": "句式变换",
+          "description": "掌握常见的句式变换方法",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "掌握把字句、被字句的互换",
+            "掌握陈述句与反问句的互换",
+            "掌握肯定句与双重否定句的互换"
+          ],
+          "prerequisites": [
+            "KP009"
+          ],
+          "related_points": [
+            "KP010",
+            "KP011"
+          ],
+          "typical_questions": [
+            "改为把字句/被字句",
+            "改为反问句/陈述句",
+            "改为双重否定句"
+          ],
+          "teaching_suggestions": "通过对比练习掌握不同句式的特点"
+        },
+        {
+          "point_id": "KP013",
+          "point_name": "标点符号的使用",
+          "description": "正确使用常用标点符号",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "掌握句号、问号、感叹号、逗号等的用法",
+            "学习使用引号、冒号、顿号",
+            "能在写作中正确使用标点符号"
+          ],
+          "prerequisites": [
+            "KP009"
+          ],
+          "related_points": [
+            "KP009",
+            "KP028"
+          ],
+          "typical_questions": [
+            "给句子加标点",
+            "修改标点错误",
+            "选择正确的标点"
+          ],
+          "teaching_suggestions": "结合朗读教学，体会标点的停顿和语气作用"
+        }
+      ]
+    },
+    {
+      "module_id": "M3",
+      "module_name": "阅读理解",
+      "knowledge_points": [
+        {
+          "point_id": "KP014",
+          "point_name": "默读与朗读",
+          "description": "掌握正确的朗读和默读方法",
+          "difficulty": "easy",
+          "importance": "high",
+          "learning_objectives": [
+            "能正确、流利、有感情地朗读课文",
+            "掌握默读方法，提高默读速度",
+            "养成良好的阅读习惯"
+          ],
+          "prerequisites": [
+            "二年级朗读基础"
+          ],
+          "related_points": [
+            "KP015",
+            "KP020"
+          ],
+          "typical_questions": [
+            "朗读课文，注意语气和停顿",
+            "默读课文并回答问题",
+            "限时默读测试"
+          ],
+          "teaching_suggestions": "每天坚持朗读和默读练习，逐步提高速度和理解力"
+        },
+        {
+          "point_id": "KP015",
+          "point_name": "理解词语在文中的意思",
+          "description": "联系上下文理解词语的含义",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能联系上下文理解词语",
+            "理解词语在不同语境中的不同含义",
+            "掌握理解词语的方法"
+          ],
+          "prerequisites": [
+            "KP005",
+            "KP014"
+          ],
+          "related_points": [
+            "KP016",
+            "KP017"
+          ],
+          "typical_questions": [
+            "联系上下文解释词语",
+            "选择词语在文中的正确意思",
+            "替换词语并说明理由"
+          ],
+          "teaching_suggestions": "引导学生在阅读中主动理解词语，不要急于查字典"
+        },
+        {
+          "point_id": "KP016",
+          "point_name": "概括段落大意",
+          "description": "学会概括自然段或段落的主要内容",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能用简洁的语言概括段落大意",
+            "掌握概括段意的基本方法",
+            "理解段落与文章的关系"
+          ],
+          "prerequisites": [
+            "KP014",
+            "KP015"
+          ],
+          "related_points": [
+            "KP017",
+            "KP018"
+          ],
+          "typical_questions": [
+            "用一句话概括段落大意",
+            "选择正确的段落大意",
+            "给段落拟小标题"
+          ],
+          "teaching_suggestions": "教授找中心句、合并段意等方法"
+        },
+        {
+          "point_id": "KP017",
+          "point_name": "归纳文章主要内容",
+          "description": "归纳文章的主要内容和中心思想",
+          "difficulty": "hard",
+          "importance": "high",
+          "learning_objectives": [
+            "能归纳文章的主要内容",
+            "理解文章要表达的中心思想",
+            "掌握归纳主要内容的方法"
+          ],
+          "prerequisites": [
+            "KP016"
+          ],
+          "related_points": [
+            "KP016",
+            "KP018",
+            "KP019"
+          ],
+          "typical_questions": [
+            "用简洁的语言概括文章主要内容",
+            "说说文章告诉我们什么道理",
+            "选择正确的中心思想"
+          ],
+          "teaching_suggestions": "教授要素串联法、段意合并法等归纳方法"
+        },
+        {
+          "point_id": "KP018",
+          "point_name": "理解文章结构",
+          "description": "了解文章的结构和段落关系",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "认识总分、总分总等常见结构",
+            "理解段落之间的关系",
+            "能给文章分段"
+          ],
+          "prerequisites": [
+            "KP016"
+          ],
+          "related_points": [
+            "KP017",
+            "KP030"
+          ],
+          "typical_questions": [
+            "给文章分段并概括段意",
+            "说说文章的结构特点",
+            "判断段落之间的关系"
+          ],
+          "teaching_suggestions": "通过图示法帮助学生理解文章结构"
+        },
+        {
+          "point_id": "KP019",
+          "point_name": "体会人物情感",
+          "description": "体会文章中人物的思想感情",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能体会人物的情感变化",
+            "理解人物的性格特点",
+            "能说出体会的依据"
+          ],
+          "prerequisites": [
+            "KP014",
+            "KP015"
+          ],
+          "related_points": [
+            "KP017",
+            "KP020"
+          ],
+          "typical_questions": [
+            "说说人物的心情/性格",
+            "从哪里看出人物的情感",
+            "人物情感变化的原因"
+          ],
+          "teaching_suggestions": "引导学生通过语言、动作、神态描写体会情感"
+        },
+        {
+          "point_id": "KP020",
+          "point_name": "理解文章表达方法",
+          "description": "初步认识文章的表达方法",
+          "difficulty": "hard",
+          "importance": "medium",
+          "learning_objectives": [
+            "认识比喻、拟人等修辞手法",
+            "理解这些方法的表达效果",
+            "能找出文中的表达方法"
+          ],
+          "prerequisites": [
+            "KP015"
+          ],
+          "related_points": [
+            "KP024",
+            "KP028"
+          ],
+          "typical_questions": [
+            "找出文中的比喻句/拟人句",
+            "说说这样写的好处",
+            "仿写句子"
+          ],
+          "teaching_suggestions": "结合具体语句讲解，培养欣赏能力"
+        },
+        {
+          "point_id": "KP021",
+          "point_name": "课外阅读方法",
+          "description": "掌握课外阅读的方法和技巧",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "养成课外阅读的习惯",
+            "掌握略读、精读等方法",
+            "能做简单的读书笔记"
+          ],
+          "prerequisites": [
+            "KP014"
+          ],
+          "related_points": [
+            "KP017",
+            "KP033"
+          ],
+          "typical_questions": [
+            "介绍自己读过的书",
+            "分享阅读收获",
+            "完成读书卡"
+          ],
+          "teaching_suggestions": "推荐适合三年级的课外读物，培养阅读兴趣"
+        }
+      ]
+    },
+    {
+      "module_id": "M4",
+      "module_name": "古诗文",
+      "knowledge_points": [
+        {
+          "point_id": "KP022",
+          "point_name": "古诗诵读",
+          "description": "正确、流利地诵读古诗",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能正确朗读和背诵规定的古诗",
+            "读准字音，注意节奏和韵律",
+            "能有感情地诵读古诗"
+          ],
+          "prerequisites": [
+            "KP014"
+          ],
+          "related_points": [
+            "KP023",
+            "KP024"
+          ],
+          "typical_questions": [
+            "背诵古诗",
+            "根据拼音写古诗",
+            "古诗默写"
+          ],
+          "teaching_suggestions": "通过示范、领读、自读等方式指导诵读"
+        },
+        {
+          "point_id": "KP023",
+          "point_name": "理解古诗意思",
+          "description": "理解古诗的大致意思",
+          "difficulty": "hard",
+          "importance": "high",
+          "learning_objectives": [
+            "理解古诗中重点词语的意思",
+            "能用自己的话说出诗句的意思",
+            "初步理解古诗表达的情感"
+          ],
+          "prerequisites": [
+            "KP022"
+          ],
+          "related_points": [
+            "KP024"
+          ],
+          "typical_questions": [
+            "解释诗句意思",
+            "回答古诗内容相关问题",
+            "说说古诗描绘的画面"
+          ],
+          "teaching_suggestions": "结合注释和插图帮助理解，不要求逐字翻译"
+        },
+        {
+          "point_id": "KP024",
+          "point_name": "体会古诗意境",
+          "description": "初步体会古诗的意境和情感",
+          "difficulty": "hard",
+          "importance": "medium",
+          "learning_objectives": [
+            "能想象古诗描绘的画面",
+            "体会诗人表达的情感",
+            "感受古诗的韵律美"
+          ],
+          "prerequisites": [
+            "KP022",
+            "KP023"
+          ],
+          "related_points": [
+            "KP019",
+            "KP020"
+          ],
+          "typical_questions": [
+            "说说古诗表达的情感",
+            "描述古诗中的画面",
+            "体会诗人的心情"
+          ],
+          "teaching_suggestions": "通过配乐朗诵、绘画等形式加深体会"
+        },
+        {
+          "point_id": "KP025",
+          "point_name": "积累古诗名句",
+          "description": "积累常见的古诗名句",
+          "difficulty": "easy",
+          "importance": "medium",
+          "learning_objectives": [
+            "积累课内外的古诗名句",
+            "了解名句的出处和含义",
+            "能在表达中恰当引用"
+          ],
+          "prerequisites": [
+            "KP022"
+          ],
+          "related_points": [
+            "KP008",
+            "KP028"
+          ],
+          "typical_questions": [
+            "根据情境填写古诗名句",
+            "诗句连线（上下句）",
+            "默写名句"
+          ],
+          "teaching_suggestions": "建立古诗积累本，分类整理"
+        }
+      ]
+    },
+    {
+      "module_id": "M5",
+      "module_name": "口语交际",
+      "knowledge_points": [
+        {
+          "point_id": "KP026",
+          "point_name": "倾听与表达",
+          "description": "学会认真倾听和清楚表达",
+          "difficulty": "easy",
+          "importance": "high",
+          "learning_objectives": [
+            "能认真倾听别人发言",
+            "能清楚、完整地表达自己的想法",
+            "说话时态度自然大方"
+          ],
+          "prerequisites": [
+            "二年级口语基础"
+          ],
+          "related_points": [
+            "KP027"
+          ],
+          "typical_questions": [
+            "听故事回答问题",
+            "看图说话",
+            "介绍自己的经历"
+          ],
+          "teaching_suggestions": "创设交际情境，鼓励学生大胆发言"
+        },
+        {
+          "point_id": "KP027",
+          "point_name": "日常交际",
+          "description": "掌握常见的交际用语和方法",
+          "difficulty": "easy",
+          "importance": "high",
+          "learning_objectives": [
+            "学会礼貌用语",
+            "掌握请求、感谢、道歉等交际方式",
+            "能根据不同场合恰当交流"
+          ],
+          "prerequisites": [
+            "KP026"
+          ],
+          "related_points": [
+            "KP026"
+          ],
+          "typical_questions": [
+            "情境对话",
+            "角色扮演",
+            "说说你会怎么做"
+          ],
+          "teaching_suggestions": "通过情景模拟进行实践练习"
+        }
+      ]
+    },
+    {
+      "module_id": "M6",
+      "module_name": "习作",
+      "knowledge_points": [
+        {
+          "point_id": "KP028",
+          "point_name": "写一段话",
+          "description": "能围绕一个意思写一段通顺的话",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能围绕一个中心意思写几句话",
+            "句子通顺，标点正确",
+            "内容具体，不少于100字"
+          ],
+          "prerequisites": [
+            "KP009",
+            "KP010"
+          ],
+          "related_points": [
+            "KP029",
+            "KP030"
+          ],
+          "typical_questions": [
+            "看图写话",
+            "写一段话介绍...",
+            "根据提示写一段话"
+          ],
+          "teaching_suggestions": "从仿写开始，逐步过渡到独立表达"
+        },
+        {
+          "point_id": "KP029",
+          "point_name": "写完整的作文",
+          "description": "能写简单的记叙文",
+          "difficulty": "hard",
+          "importance": "high",
+          "learning_objectives": [
+            "能把事情的经过写清楚",
+            "学会使用简单的过渡词语",
+            "做到有开头、有结尾，不少于250字"
+          ],
+          "prerequisites": [
+            "KP028"
+          ],
+          "related_points": [
+            "KP030",
+            "KP031",
+            "KP032"
+          ],
+          "typical_questions": [
+            "写一件事",
+            "写一个人",
+            "写一处景物",
+            "写想象作文"
+          ],
+          "teaching_suggestions": "教授审题、选材、组织材料的方法"
+        },
+        {
+          "point_id": "KP030",
+          "point_name": "作文结构",
+          "description": "掌握作文的基本结构",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能写好开头和结尾",
+            "掌握按时间、地点、事情发展顺序写作",
+            "段落之间有衔接"
+          ],
+          "prerequisites": [
+            "KP028",
+            "KP018"
+          ],
+          "related_points": [
+            "KP029",
+            "KP031"
+          ],
+          "typical_questions": [
+            "补写开头或结尾",
+            "给段落排序",
+            "分段练习"
+          ],
+          "teaching_suggestions": "通过范文分析和模仿练习掌握结构"
+        },
+        {
+          "point_id": "KP031",
+          "point_name": "细节描写",
+          "description": "学会写具体、生动的细节",
+          "difficulty": "hard",
+          "importance": "medium",
+          "learning_objectives": [
+            "能抓住重点进行具体描写",
+            "学会运用动作、语言、神态描写",
+            "使文章内容更生动"
+          ],
+          "prerequisites": [
+            "KP028",
+            "KP029"
+          ],
+          "related_points": [
+            "KP032",
+            "KP019"
+          ],
+          "typical_questions": [
+            "把句子写具体",
+            "细节描写片段练习",
+            "扩写练习"
+          ],
+          "teaching_suggestions": "通过观察和体验积累写作素材"
+        },
+        {
+          "point_id": "KP032",
+          "point_name": "运用修辞手法",
+          "description": "初步学会使用比喻、拟人等修辞",
+          "difficulty": "medium",
+          "importance": "medium",
+          "learning_objectives": [
+            "认识比喻、拟人、排比等修辞手法",
+            "能在习作中尝试使用",
+            "使表达更生动形象"
+          ],
+          "prerequisites": [
+            "KP020",
+            "KP028"
+          ],
+          "related_points": [
+            "KP031"
+          ],
+          "typical_questions": [
+            "仿写比喻句/拟人句",
+            "用修辞手法写句子",
+            "在作文中恰当使用修辞"
+          ],
+          "teaching_suggestions": "通过仿写、改写等方式练习运用"
+        },
+        {
+          "point_id": "KP033",
+          "point_name": "修改作文",
+          "description": "养成修改作文的习惯",
+          "difficulty": "medium",
+          "importance": "high",
+          "learning_objectives": [
+            "能读出自己作文中的问题",
+            "会修改明显的错误",
+            "养成写完后检查的习惯"
+          ],
+          "prerequisites": [
+            "KP029"
+          ],
+          "related_points": [
+            "KP011",
+            "KP013"
+          ],
+          "typical_questions": [
+            "修改自己的作文",
+            "找出作文中的错误",
+            "互相评改作文"
+          ],
+          "teaching_suggestions": "教授修改符号和修改方法，培养修改意识"
+        },
+        {
+          "point_id": "KP034",
+          "point_name": "日记与片段写作",
+          "description": "养成写日记和随笔的习惯",
+          "difficulty": "easy",
+          "importance": "medium",
+          "learning_objectives": [
+            "能坚持写日记",
+            "记录生活中的见闻和感受",
+            "积累写作素材"
+          ],
+          "prerequisites": [
+            "KP028"
+          ],
+          "related_points": [
+            "KP029",
+            "KP035"
+          ],
+          "typical_questions": [
+            "写观察日记",
+            "写心情日记",
+            "写事件日记"
+          ],
+          "teaching_suggestions": "鼓励真实表达，不要求篇幅和形式"
+        },
+        {
+          "point_id": "KP035",
+          "point_name": "应用文写作",
+          "description": "学写简单的应用文",
+          "difficulty": "medium",
+          "importance": "low",
+          "learning_objectives": [
+            "学会写留言条、请假条",
+            "学会写简单的书信",
+            "了解应用文的格式要求"
+          ],
+          "prerequisites": [
+            "KP028"
+          ],
+          "related_points": [
+            "KP027"
+          ],
+          "typical_questions": [
+            "写留言条/请假条",
+            "给XXX写一封信",
+            "格式改错"
+          ],
+          "teaching_suggestions": "讲清格式要求，结合实际情况练习"
+        }
+      ]
+    }
+  ],
+  "learning_path": {
+    "foundation": [
+      "KP001",
+      "KP002",
+      "KP003",
+      "KP004",
+      "KP005",
+      "KP009",
+      "KP014"
+    ],
+    "core": [
+      "KP006",
+      "KP007",
+      "KP010",
+      "KP011",
+      "KP015",
+      "KP016",
+      "KP017",
+      "KP022",
+      "KP023",
+      "KP028",
+      "KP029"
+    ],
+    "advanced": [
+      "KP008",
+      "KP012",
+      "KP019",
+      "KP020",
+      "KP024",
+      "KP031",
+      "KP032"
+    ],
+    "practice": [
+      "KP013",
+      "KP021",
+      "KP026",
+      "KP027",
+      "KP033",
+      "KP034",
+      "KP035"
+    ]
+  },
+  "assessment_focus": [
+    {
+      "category": "识字与写字",
+      "weight": "15%",
+      "key_points": [
+        "KP001",
+        "KP002",
+        "KP004"
+      ]
+    },
+    {
+      "category": "词语与句子",
+      "weight": "20%",
+      "key_points": [
+        "KP005",
+        "KP006",
+        "KP007",
+        "KP009",
+        "KP011",
+        "KP012"
+      ]
+    },
+    {
+      "category": "阅读理解",
+      "weight": "30%",
+      "key_points": [
+        "KP015",
+        "KP016",
+        "KP017",
+        "KP019",
+        "KP020"
+      ]
+    },
+    {
+      "category": "古诗文",
+      "weight": "10%",
+      "key_points": [
+        "KP022",
+        "KP023",
+        "KP024"
+      ]
+    },
+    {
+      "category": "习作",
+      "weight": "25%",
+      "key_points": [
+        "KP028",
+        "KP029",
+        "KP030",
+        "KP031",
+        "KP033"
+      ]
+    }
+  ],
+  "teaching_suggestions": {
+    "weekly_plan": {
+      "reading": "每周3-4课时，包括课文学习和课外阅读指导",
+      "writing": "每周2课时，包括片段练习和整篇作文",
+      "basics": "每周1-2课时，包括识字、词句练习",
+      "classical": "每周1课时，学习古诗文"
+    },
+    "homework_arrangement": {
+      "daily": "朗读课文15分钟，完成字词练习，课外阅读20分钟",
+      "weekly": "完成一篇日记或练笔，背诵一首古诗，完成阅读练习"
+    },
+    "key_abilities": [
+      "识字写字能力",
+      "阅读理解能力",
+      "口语表达能力",
+      "书面表达能力",
+      "古诗文诵读能力"
+    ]
+  },
+  "common_difficulties": [
+    {
+      "difficulty": "汉字书写不规范",
+      "related_points": [
+        "KP002",
+        "KP003"
+      ],
+      "solution": "加强笔顺和结构训练，每天坚持练字"
+    },
+    {
+      "difficulty": "阅读理解能力弱",
+      "related_points": [
+        "KP015",
+        "KP016",
+        "KP017"
+      ],
+      "solution": "增加阅读量，教授阅读方法，培养思维能力"
+    },
+    {
+      "difficulty": "作文内容空洞",
+      "related_points": [
+        "KP029",
+        "KP031"
+      ],
+      "solution": "引导观察生活，积累素材，练习细节描写"
+    },
+    {
+      "difficulty": "古诗理解困难",
+      "related_points": [
+        "KP023",
+        "KP024"
+      ],
+      "solution": "结合注释和背景介绍，通过想象和体验理解"
+    },
+    {
+      "difficulty": "病句修改不会做",
+      "related_points": [
+        "KP011"
+      ],
+      "solution": "分类讲解病句类型，大量练习，培养语感"
+    }
+  ],
+  "extension_resources": {
+    "recommended_books": [
+      "《中国古代寓言故事》",
+      "《格林童话》",
+      "《安徒生童话》",
+      "《伊索寓言》",
+      "《小学生必背古诗词75首》",
+      "《窗边的小豆豆》",
+      "《夏洛的网》",
+      "《草房子》"
+    ],
+    "online_resources": [
+      "统编版语文教材配套数字资源",
+      "中小学语文学习平台",
+      "古诗词学习APP"
+    ],
+    "practice_materials": [
+      "课文同步练习",
+      "阅读理解专项训练",
+      "看图写话练习",
+      "字帖（楷书）"
+    ]
+  }
+}
