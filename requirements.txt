@@ -15,3 +15,6 @@ pydantic>=2.0.0
 # CLI
 click>=8.0.0
 rich>=13.0.0
+
+# TUI (Terminal UI)
+textual>=0.47.0
