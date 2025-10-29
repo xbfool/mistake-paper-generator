@@ -206,6 +206,6 @@ Button {
 }
 
 .priority-low {
-    background: $info;
+    background: $accent;
     color: white;
 }
