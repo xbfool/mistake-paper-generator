@@ -42,7 +42,7 @@ class MainScreen(Screen):
             yield Label("")
 
             # 统计卡片
-            yield Label("📊 学习概况", id="section-title")
+            yield Label("📊 学习概况")
             with Grid(id="stats-grid", classes="stats-container"):
                 yield Static("[bold]总题数[/bold]\n-", id="stat-total")
                 yield Static("[bold]错题数[/bold]\n-", id="stat-mistakes")
@@ -52,13 +52,13 @@ class MainScreen(Screen):
             yield Label("")
 
             # 薄弱知识点
-            yield Label("🔴 薄弱知识点", id="section-title")
+            yield Label("🔴 薄弱知识点")
             yield Static("加载中...", id="weak-points")
 
             yield Label("")
 
             # 操作按钮
-            yield Label("⚡ 快捷操作", id="section-title")
+            yield Label("⚡ 快捷操作")
             with Horizontal():
                 yield Button("[D] 诊断测试", id="btn-diagnose", variant="primary")
                 yield Button("[R] 今日推荐", id="btn-daily", variant="success")
