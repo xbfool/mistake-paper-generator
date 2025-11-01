@@ -1,0 +1,5 @@
+# PDF generation
+reportlab>=4.0.0
+
+# CLI framework
+click>=8.0.0
