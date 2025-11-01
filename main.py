@@ -611,5 +611,287 @@ def info():
         console.print(f"  [dim]  题库文件未创建（首次使用正常）[/dim]")
 
 
+@cli.command(name='group-photos')
+@click.option('--dir', '-d', 'image_dir', type=click.Path(exists=True),
+              help='照片目录路径（默认: pictures/inbox/）')
+@click.option('--ai', type=click.Choice(['claude', 'openai']), help='指定使用的AI模型')
+def group_photos_cmd(image_dir, ai):
+    """智能分组照片（识别试卷类型）"""
+    from mistake_generator.photo_grouper import PhotoGrouper
+
+    console.print("\n[bold cyan]📷 智能照片分组[/bold cyan]\n")
+
+    try:
+        # 确定照片目录
+        if image_dir:
+            photo_dir = Path(image_dir)
+        else:
+            photo_dir = Path("pictures/inbox")
+
+        if not photo_dir.exists():
+            console.print(f"[yellow]照片目录不存在，正在创建: {photo_dir}[/yellow]")
+            photo_dir.mkdir(parents=True, exist_ok=True)
+            console.print("[yellow]请将照片放入该目录后重试[/yellow]")
+            return
+
+        # 检查是否有照片
+        image_files = list(photo_dir.glob("*.jpg")) + list(photo_dir.glob("*.jpeg")) + \
+                      list(photo_dir.glob("*.png"))
+
+        if not image_files:
+            console.print(f"[yellow]{photo_dir} 目录中没有找到照片[/yellow]")
+            return
+
+        console.print(f"找到 {len(image_files)} 张照片")
+        console.print(f"[dim]使用AI: {ai or '默认'}[/dim]\n")
+
+        # 初始化分组器
+        grouper = PhotoGrouper(ai_provider_name=ai)
+
+        # 分析并分组照片
+        console.print("[yellow]正在分析照片...[/yellow]")
+        with Progress() as progress:
+            task = progress.add_task("[cyan]分析中...", total=len(image_files))
+
+            metadata_list = []
+            for img in sorted(image_files, key=lambda x: x.name):
+                meta = grouper.analyze_photo(img)
+                metadata_list.append(meta)
+                progress.update(task, advance=1)
+
+        console.print("\n[yellow]正在智能分组...[/yellow]")
+        groups = grouper.group_photos(photo_dir, metadata_list)
+
+        # 保存分组结果
+        output_file = Path("data/photo_groups.json")
+        grouper.save_groups(groups, output_file)
+
+        # 显示分组结果
+        console.print(f"\n[bold green]✓ 分组完成！共识别 {len(groups)} 个考试[/bold green]\n")
+
+        for idx, group in enumerate(groups, 1):
+            console.print(f"[cyan]考试 {idx}:[/cyan] {group.metadata.get('title', '未知')}")
+            console.print(f"  科目: {group.metadata.get('subject', '未知')}")
+            console.print(f"  类型: {group.metadata.get('exam_type', '未知')}")
+
+            total_images = sum(len(imgs) for imgs in group.images.values())
+            console.print(f"  照片: {total_images}张 ", end="")
+
+            details = []
+            if group.images['original']:
+                details.append(f"原卷{len(group.images['original'])}张")
+            if group.images['graded']:
+                details.append(f"批阅{len(group.images['graded'])}张")
+            if group.images['corrected']:
+                details.append(f"订正{len(group.images['corrected'])}张")
+
+            console.print(f"({', '.join(details)})")
+            console.print()
+
+        console.print(f"[dim]分组结果已保存到: {output_file}[/dim]")
+
+    except Exception as e:
+        console.print(f"[red]错误: {str(e)}[/red]")
+        import traceback
+        console.print(f"[dim]{traceback.format_exc()}[/dim]")
+
+
+@cli.command(name='parse-exam')
+@click.option('--group-id', '-g', type=int, help='分组ID（从1开始）')
+@click.option('--ai', type=click.Choice(['claude', 'openai']), help='指定使用的AI模型')
+def parse_exam_cmd(group_id, ai):
+    """解析考试试卷（提取题目和双状态）"""
+    from mistake_generator.photo_grouper import PhotoGrouper
+    from mistake_generator.question_parser_v2 import QuestionParserV2
+
+    console.print("\n[bold cyan]📝 解析考试试卷[/bold cyan]\n")
+
+    try:
+        # 加载分组
+        groups_file = Path("data/photo_groups.json")
+        if not groups_file.exists():
+            console.print("[red]未找到分组文件，请先运行 'group-photos' 命令[/red]")
+            return
+
+        grouper = PhotoGrouper()
+        groups = grouper.load_groups(groups_file)
+
+        if not groups:
+            console.print("[yellow]没有找到任何考试分组[/yellow]")
+            return
+
+        # 选择要解析的分组
+        if group_id:
+            if group_id < 1 or group_id > len(groups):
+                console.print(f"[red]无效的分组ID: {group_id}[/red]")
+                return
+            selected_groups = [groups[group_id - 1]]
+        else:
+            selected_groups = groups
+
+        console.print(f"将解析 {len(selected_groups)} 个考试\n")
+
+        # 初始化解析器
+        parser = QuestionParserV2(ai_provider_name=ai)
+
+        # 解析每个考试
+        for group in selected_groups:
+            exam_title = group.metadata.get('title', '未知考试')
+            subject = group.metadata.get('subject', '未知')
+
+            console.print(f"[cyan]解析:[/cyan] {exam_title} ({subject})")
+
+            # 解析批阅卷
+            graded_images = group.images.get('graded', [])
+            if not graded_images:
+                console.print("  [yellow]没有批阅卷照片，跳过[/yellow]\n")
+                continue
+
+            all_questions = []
+            photo_dir = Path("pictures/inbox")
+
+            console.print(f"  [yellow]解析批阅卷... ({len(graded_images)}张)[/yellow]")
+            for img_name in graded_images:
+                img_path = photo_dir / img_name
+                if img_path.exists():
+                    questions = parser.parse_graded_paper(
+                        img_path,
+                        subject=subject,
+                        exam_id=group.exam_id
+                    )
+                    all_questions.extend(questions)
+
+            console.print(f"  提取到 {len(all_questions)} 道题目")
+
+            # 解析订正页
+            corrected_images = group.images.get('corrected', [])
+            if corrected_images:
+                console.print(f"  [yellow]解析订正页... ({len(corrected_images)}张)[/yellow]")
+                for img_name in corrected_images:
+                    img_path = photo_dir / img_name
+                    if img_path.exists():
+                        all_questions = parser.parse_correction_page(
+                            img_path,
+                            all_questions
+                        )
+
+            # 保存题目
+            output_file = Path(f"data/exams/{group.exam_id}_questions.json")
+            parser.save_questions(all_questions, output_file)
+
+            console.print(f"  [green]✓ 保存到: {output_file}[/green]\n")
+
+        console.print("[bold green]✓ 解析完成！[/bold green]")
+
+    except Exception as e:
+        console.print(f"[red]错误: {str(e)}[/red]")
+        import traceback
+        console.print(f"[dim]{traceback.format_exc()}[/dim]")
+
+
+@cli.command(name='analyze-v2')
+@click.option('--student', '-s', required=True, help='学生姓名')
+@click.option('--subject', type=click.Choice(['数学', '语文', '英语']), required=True,
+              help='科目')
+@click.option('--ai', type=click.Choice(['claude', 'openai']), help='指定使用的AI模型')
+def analyze_v2_cmd(student, subject, ai):
+    """生成学习分析报告（v2.0 双维度分析）"""
+    from mistake_generator.question_parser_v2 import QuestionParserV2
+    from mistake_generator.dual_analyzer import DualAnalyzer
+    from mistake_generator.report_generator_v2 import ReportGeneratorV2
+    from mistake_generator.ai_provider import get_ai_provider
+
+    console.print(f"\n[bold cyan]📊 生成学习分析报告 - {student}[/bold cyan]\n")
+
+    try:
+        # 加载所有考试题目
+        exams_dir = Path("data/exams")
+        if not exams_dir.exists():
+            console.print("[red]未找到考试数据，请先运行 'parse-exam' 命令[/red]")
+            return
+
+        question_files = list(exams_dir.glob("*_questions.json"))
+        if not question_files:
+            console.print("[yellow]没有找到任何考试题目数据[/yellow]")
+            return
+
+        console.print(f"找到 {len(question_files)} 份考试记录\n")
+
+        # 加载所有题目
+        parser = QuestionParserV2()
+        all_questions = []
+        exam_performances = []
+
+        analyzer = DualAnalyzer()
+
+        for qfile in question_files:
+            questions = parser.load_questions(qfile)
+            # 筛选科目
+            subject_questions = [q for q in questions if q.subject == subject]
+
+            if subject_questions:
+                all_questions.extend(subject_questions)
+
+                # 分析单次考试表现
+                exam_perf = analyzer.analyze_exam(
+                    exam_id=questions[0].exam_id if questions else "",
+                    subject=subject,
+                    title=qfile.stem.replace("_questions", ""),
+                    questions=subject_questions
+                )
+                exam_performances.append(exam_perf)
+
+        if not all_questions:
+            console.print(f"[yellow]没有找到{subject}科目的题目[/yellow]")
+            return
+
+        console.print(f"共加载 {len(all_questions)} 道{subject}题目")
+        console.print("[yellow]正在分析薄弱点...[/yellow]\n")
+
+        # 生成薄弱点分析
+        weakness_analysis = analyzer.generate_weakness_analysis(
+            subject=subject,
+            all_questions=all_questions
+        )
+
+        # 生成学习建议
+        console.print("[yellow]正在生成学习建议...[/yellow]\n")
+        ai_provider = get_ai_provider(ai)
+        learning_suggestions = analyzer.generate_learning_suggestions(
+            weakness_analysis,
+            ai_provider
+        )
+
+        # 生成HTML报告
+        console.print("[yellow]正在生成HTML报告...[/yellow]\n")
+        report_generator = ReportGeneratorV2()
+        output_path = Path(f"output/reports/{student}_{subject}_分析报告.html")
+
+        report_generator.generate_html_report(
+            student_name=student,
+            subject=subject,
+            weakness_analysis=weakness_analysis,
+            exam_performances=exam_performances,
+            learning_suggestions=learning_suggestions,
+            output_path=output_path
+        )
+
+        # 显示摘要
+        console.print("[bold green]✓ 分析完成！[/bold green]\n")
+        console.print(f"[cyan]📊 分析摘要[/cyan]")
+        console.print(f"  考试次数: {len(exam_performances)}")
+        console.print(f"  总题数: {len(all_questions)}")
+        console.print(f"  已掌握: {len(weakness_analysis.mastered_points)} 个知识点")
+        console.print(f"  可巩固: {len(weakness_analysis.consolidate_points)} 个知识点")
+        console.print(f"  深度薄弱: [red]{len(weakness_analysis.weak_points)} 个知识点[/red]")
+        console.print(f"\n[green]报告已生成:[/green] {output_path}")
+        console.print(f"[dim]用浏览器打开查看详细报告[/dim]")
+
+    except Exception as e:
+        console.print(f"[red]错误: {str(e)}[/red]")
+        import traceback
+        console.print(f"[dim]{traceback.format_exc()}[/dim]")
+
+
 if __name__ == "__main__":
     cli()
