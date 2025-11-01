@@ -166,11 +166,11 @@ class PDFBuilder:
 
     def _draw_oral_questions(self, c: canvas.Canvas, questions: List, y: float) -> float:
         """绘制口算题（横式排列）"""
-        c.setFont(self.font_name, 11)
+        c.setFont(self.font_name, 12)
 
         # 每行2道题
         col_width = self.content_width / 2
-        row_height = 20
+        row_height = 35  # 增加行间距
 
         for i, q in enumerate(questions):
             row = i // 2
@@ -202,11 +202,18 @@ class PDFBuilder:
             x = self.margin_left + col * col_width + 30
             current_y = y - row * question_height
 
-            # 绘制题号
-            c.drawString(x - 25, current_y, f"{i + 1}.")
+            # 绘制边框（参考教材格式）
+            box_width = 150
+            box_height = 80
+            c.setLineWidth(1)
+            c.rect(x - 30, current_y - 65, box_width, box_height, stroke=1, fill=0)
+
+            # 绘制题号（在边框内左上角）
+            c.setFont(self.font_name, 10)
+            c.drawString(x - 25, current_y, f"{i + 1}")
 
             # 绘制竖式
-            self._draw_vertical_format(c, q, x, current_y)
+            self._draw_vertical_format(c, q, x, current_y - 10)
 
         # 计算总高度
         total_rows = (len(questions) + 1) // 2
@@ -296,34 +303,42 @@ class PDFBuilder:
         elif op == 'div':
             dividend, divisor = question.numbers[:2]
 
-            # 除法竖式（标准格式，参考教材）
+            # 除法竖式（严格按照教材标准）
             divisor_str = str(divisor)
             dividend_str = str(dividend)
 
-            c.setFont(self.font_name, 14)  # 稍大的字体
+            c.setFont(self.font_name, 14)
 
             # 除数（左边）
-            divisor_width = len(divisor_str) * 10
-            c.drawString(x - 15, y, divisor_str)
+            divisor_x = x - 10
+            c.drawString(divisor_x, y - 2, divisor_str)
 
-            # 竖线（分隔除数和被除数）
-            c.setLineWidth(1.5)
-            c.line(x + divisor_width - 10, y - 8, x + divisor_width - 10, y + 25)
+            # 计算竖线的x位置（在除数右边留一点间距）
+            divisor_width = len(divisor_str) * 9
+            vertical_line_x = divisor_x + divisor_width + 5
 
-            # 被除数（右边，每个数字之间加空格）
+            # 被除数（每个数字之间加空格）
             dividend_with_spaces = ' '.join(list(dividend_str))
-            dividend_x = x + divisor_width - 5
-            c.drawString(dividend_x, y, dividend_with_spaces)
+            dividend_x = vertical_line_x + 5
+            c.drawString(dividend_x, y - 2, dividend_with_spaces)
 
-            # 横线（在被除数上方）
-            dividend_total_width = len(dividend_with_spaces) * 7
-            c.line(x + divisor_width - 10, y + 20,
-                   x + divisor_width - 10 + dividend_total_width, y + 20)
+            # 计算横线长度（覆盖被除数）
+            dividend_width = len(dividend_with_spaces) * 8
+
+            # 画横线（在被除数上方）
+            horizontal_y = y + 16
+            c.setLineWidth(1.5)
+            c.line(vertical_line_x, horizontal_y,
+                   dividend_x + dividend_width, horizontal_y)
+
+            # 画竖线（从横线垂直向下，到被除数下方）
+            c.line(vertical_line_x, y - 10,
+                   vertical_line_x, horizontal_y)
             c.setLineWidth(1)
 
             # 商的答案框（在横线上方）
             c.setFont(self.font_name, 10)
-            c.drawString(dividend_x, y + 25, "(          )")
+            c.drawString(dividend_x, horizontal_y + 5, "(          )")
 
     def _draw_fill_questions(self, c: canvas.Canvas, questions: List, y: float) -> float:
         """绘制填空题"""

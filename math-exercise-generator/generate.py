@@ -165,10 +165,11 @@ def _generate_single_pdf(output, count, difficulty, add_digits, sub_digits, mul_
     list_gen = ListVerticalGenerator()
 
     click.echo(f"生成题目...")
-    oral_questions = oral_gen.generate_batch(oral_count, digit_configs=digit_configs) if oral_count > 0 else []
-    vertical_questions = vertical_gen.generate_batch(vertical_count, digit_configs=digit_configs) if vertical_count > 0 else []
-    fill_questions = fill_gen.generate_batch(fill_count, digit_configs=digit_configs) if fill_count > 0 else []
-    list_questions = list_gen.generate_batch(list_count, digit_configs=digit_configs) if list_count > 0 else []
+    # 只生成口算题
+    oral_questions = oral_gen.generate_batch(count, digit_configs=digit_configs)
+    vertical_questions = []  # 不生成竖式
+    fill_questions = []  # 不生成填空题
+    list_questions = []  # 不生成列竖式
 
     click.echo(f"生成PDF...")
 

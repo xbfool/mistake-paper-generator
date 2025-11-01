@@ -86,26 +86,26 @@ class OralQuestionGenerator:
 
         if operation == 'add':
             a, b, result = AdditionGenerator.generate(a_digits, b_digits)
-            question_text = f"{a} + {b} = ___"
+            question_text = f"{a} + {b} ="
             answer = str(result)
 
         elif operation == 'sub':
             a, b, result = SubtractionGenerator.generate(a_digits, b_digits)
-            question_text = f"{a} - {b} = ___"
+            question_text = f"{a} - {b} ="
             answer = str(result)
 
         elif operation == 'mul':
             a, b, result = MultiplicationGenerator.generate(a_digits, b_digits)
-            question_text = f"{a} × {b} = ___"
+            question_text = f"{a} × {b} ="
             answer = str(result)
 
         elif operation == 'div':
             dividend, divisor, quotient, remainder = DivisionGenerator.generate(a_digits, b_digits)
             if remainder == 0:
-                question_text = f"{dividend} ÷ {divisor} = ___"
+                question_text = f"{dividend} ÷ {divisor} ="
                 answer = str(quotient)
             else:
-                question_text = f"{dividend} ÷ {divisor} = ___ ... ___"
+                question_text = f"{dividend} ÷ {divisor} ="
                 answer = f"{quotient}...{remainder}"
 
         else:

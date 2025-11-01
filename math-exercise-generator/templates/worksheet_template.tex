@@ -1,0 +1,203 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[UTF8]{ctex}  % 中文支持
+\usepackage{xlop}        % 竖式计算
+\usepackage{geometry}    % 页面设置
+\usepackage{multicol}    % 多列布局
+\usepackage{xcolor}      % 颜色
+\usepackage{fancyhdr}    % 页眉页脚
+
+% 页面设置
+\geometry{
+  a4paper,
+  left=2cm,
+  right=2cm,
+  top=2.5cm,
+  bottom=2cm
+}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[C]{\color{blue}\Large\textbf{\VAR{title}}}
+\fancyfoot[C]{\thepage}
+
+% 自定义命令
+\newcommand{\sectiontitle}[1]{
+  \vspace{0.5cm}
+  \noindent\colorbox{blue!10}{\parbox{\textwidth}{\color{blue!80!black}\large\textbf{#1}}}
+  \vspace{0.3cm}
+}
+
+\begin{document}
+
+% 标题和信息栏
+\begin{center}
+  {\color{blue}\Huge\textbf{\VAR{title}}}
+\end{center}
+
+\vspace{0.3cm}
+
+\noindent
+姓名：\underline{\hspace{3cm}} \hfill
+班级：\underline{\hspace{3cm}} \hfill
+日期：\underline{\hspace{3cm}} \hfill
+成绩：\underline{\hspace{3cm}}
+
+\vspace{0.5cm}
+
+\BLOCK{if oral_questions}
+% 一、口算题
+\sectiontitle{一、口算题（每题\VAR{oral_points}分，共\VAR{oral_questions|length * oral_points}分）}
+
+\begin{multicols}{2}
+\BLOCK{for q in oral_questions}
+  \VAR{loop.index}. \VAR{q.question}
+
+  \vspace{0.3cm}
+\BLOCK{endfor}
+\end{multicols}
+\BLOCK{endif}
+
+\BLOCK{if vertical_questions}
+% 二、竖式计算
+\sectiontitle{二、竖式计算（每题\VAR{vertical_points}分，共\VAR{vertical_questions|length * vertical_points}分）}
+
+\begin{multicols}{2}
+\BLOCK{for q in vertical_questions}
+  % 题号和边框
+  \noindent
+  \fbox{
+    \begin{minipage}[t][5cm][t]{6cm}
+      % 题号
+      \textbf{\VAR{loop.index}}
+
+      \vspace{1cm}
+
+      % 竖式内容
+      \begin{center}
+      \BLOCK{if q.operation == 'add' or q.operation == 'sub'}
+        % 加减法竖式
+        \Large
+        \begin{tabular}{@{}r@{}}
+          \VAR{q.numbers.0} \\
+          \BLOCK{if q.operation == 'add'}+\BLOCK{else}-\BLOCK{endif} \VAR{q.numbers.1} \\
+          \hline
+          \phantom{0000} \\
+        \end{tabular}
+      \BLOCK{elif q.operation == 'mul'}
+        % 乘法竖式
+        \Large
+        \begin{tabular}{@{}r@{}}
+          \VAR{q.numbers.0} \\
+          $\times$ \VAR{q.numbers.1} \\
+          \hline
+          \phantom{0000} \\
+        \end{tabular}
+      \BLOCK{elif q.operation == 'div'}
+        % 除法竖式 - 教材标准格式
+        \Large
+        \setlength{\unitlength}{1mm}
+        \begin{picture}(50,25)
+          % 商的格子区域（横线上方，每位数一个格子）
+          \put(15,18){\framebox(8,6){}}
+          \put(23,18){\framebox(8,6){}}
+          \put(31,18){\framebox(8,6){}}
+
+          % 横线
+          \put(15,18){\line(1,0){30}}
+
+          % 竖线
+          \put(15,3){\line(0,1){15}}
+
+          % 除数（竖线左边）
+          \put(13,10){\makebox(0,0)[r]{\Large\VAR{q.numbers.1}}}
+
+          % 被除数（竖线右边）
+          \put(20,10){\makebox(0,0)[c]{\Large\VAR{q.numbers.0}}}
+
+          % 计算区域留白
+          \put(17,3){\makebox(0,0)[c]{\phantom{计算}}}
+        \end{picture}
+      \BLOCK{endif}
+      \end{center}
+    \end{minipage}
+  }
+
+  \vspace{0.5cm}
+\BLOCK{endfor}
+\end{multicols}
+\BLOCK{endif}
+
+\BLOCK{if fill_questions}
+% 三、填空题
+\sectiontitle{三、填空题（每题\VAR{fill_points}分，共\VAR{fill_questions|length * fill_points}分）}
+
+\BLOCK{for q in fill_questions}
+  \VAR{loop.index}. \VAR{q.question}
+
+  \vspace{0.4cm}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\BLOCK{if list_vertical_questions}
+% 四、列竖式计算
+\sectiontitle{四、列竖式计算（每题\VAR{list_points}分，共\VAR{list_vertical_questions|length * list_points}分）}
+
+\BLOCK{for q in list_vertical_questions}
+  \VAR{loop.index}. \VAR{q.question}（请在下方列竖式计算）
+
+  \vspace{2cm}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+% 答案页
+\newpage
+
+\begin{center}
+  {\color{green!70!black}\Huge\textbf{参考答案}}
+\end{center}
+
+\vspace{0.5cm}
+
+\BLOCK{if oral_questions}
+\sectiontitle{一、口算题}
+\begin{multicols}{5}
+\BLOCK{for q in oral_questions}
+  \VAR{loop.index}. \VAR{q.answer}
+
+\BLOCK{endfor}
+\end{multicols}
+\BLOCK{endif}
+
+\BLOCK{if vertical_questions}
+\sectiontitle{二、竖式计算}
+\begin{multicols}{5}
+\BLOCK{for q in vertical_questions}
+  \VAR{loop.index}. \VAR{q.answer}
+
+\BLOCK{endfor}
+\end{multicols}
+\BLOCK{endif}
+
+\BLOCK{if fill_questions}
+\sectiontitle{三、填空题}
+\begin{multicols}{5}
+\BLOCK{for q in fill_questions}
+  \VAR{loop.index}. \VAR{q.answer}
+
+\BLOCK{endfor}
+\end{multicols}
+\BLOCK{endif}
+
+\BLOCK{if list_vertical_questions}
+\sectiontitle{四、列竖式计算}
+\begin{multicols}{5}
+\BLOCK{for q in list_vertical_questions}
+  \VAR{loop.index}. \VAR{q.answer}
+
+\BLOCK{endfor}
+\end{multicols}
+\BLOCK{endif}
+
+\end{document}
