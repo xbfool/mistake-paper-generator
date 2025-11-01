@@ -193,7 +193,7 @@ class PDFBuilder:
 
         # 每行2道题
         col_width = self.content_width / 2
-        question_height = 80  # 每道竖式题的高度
+        question_height = 90  # 每道竖式题的高度（增加间距）
 
         for i, q in enumerate(questions):
             row = i // 2
@@ -220,55 +220,110 @@ class PDFBuilder:
             a, b = question.numbers[:2]
             symbol = '+' if op == 'add' else '-'
 
-            # 右对齐数字
-            max_len = max(len(str(a)), len(str(b)))
-            x_right = x + max_len * 8  # 增加间距
+            # 将数字转换为带空格的格式（参考教材）
+            a_str = str(a)
+            b_str = str(b)
 
-            # 第一个数
-            c.drawRightString(x_right, y, str(a))
+            # 对齐到相同长度
+            max_len = max(len(a_str), len(b_str))
+            a_str = a_str.zfill(max_len)
+            b_str = b_str.zfill(max_len)
 
-            # 符号和第二个数（增加行距）
-            c.drawString(x - 15, y - 20, symbol)
-            c.drawRightString(x_right, y - 20, str(b))
+            # 添加空格分隔每个数字
+            a_spaced = ' '.join(list(a_str))
+            b_spaced = ' '.join(list(b_str))
 
-            # 横线（在数字下方留出足够空间）
-            c.line(x - 20, y - 25, x_right + 5, y - 25)
+            c.setFont(self.font_name, 14)  # 较大字体
 
-            # 答案框（在横线下方）
-            c.drawString(x - 5, y - 42, "(          )")
+            # 计算宽度
+            char_width = 10  # 每个字符（包括空格）的宽度
+            total_width = len(a_spaced) * char_width
+
+            # 第一个数（右对齐）
+            c.drawRightString(x + total_width, y, a_spaced)
+
+            # 符号和第二个数
+            c.drawString(x - 20, y - 24, symbol)
+            c.drawRightString(x + total_width, y - 24, b_spaced)
+
+            # 横线
+            c.setLineWidth(1.5)
+            c.line(x - 25, y - 30, x + total_width + 5, y - 30)
+            c.setLineWidth(1)
+
+            # 答案框
+            c.setFont(self.font_name, 11)
+            c.drawString(x + 10, y - 48, "(          )")
 
         elif op == 'mul':
             a, b = question.numbers[:2]
 
-            max_len = max(len(str(a)), len(str(b)))
-            x_right = x + max_len * 8
+            # 将数字转换为带空格的格式
+            a_str = str(a)
+            b_str = str(b)
+
+            # 对齐到相同长度
+            max_len = max(len(a_str), len(b_str))
+            a_str = a_str.zfill(max_len)
+            b_str = b_str.zfill(max_len)
+
+            # 添加空格
+            a_spaced = ' '.join(list(a_str))
+            b_spaced = ' '.join(list(b_str))
+
+            c.setFont(self.font_name, 14)
+
+            # 计算宽度
+            char_width = 10
+            total_width = len(a_spaced) * char_width
 
             # 第一个数
-            c.drawRightString(x_right, y, str(a))
+            c.drawRightString(x + total_width, y, a_spaced)
 
-            # 符号和第二个数（增加行距）
-            c.drawString(x - 15, y - 20, '×')
-            c.drawRightString(x_right, y - 20, str(b))
+            # 符号和第二个数
+            c.drawString(x - 20, y - 24, '×')
+            c.drawRightString(x + total_width, y - 24, b_spaced)
 
-            # 横线（在数字下方留出空间）
-            c.line(x - 20, y - 25, x_right + 5, y - 25)
+            # 横线
+            c.setLineWidth(1.5)
+            c.line(x - 25, y - 30, x + total_width + 5, y - 30)
+            c.setLineWidth(1)
 
-            # 答案框（在横线下方）
-            c.drawString(x - 5, y - 42, "(          )")
+            # 答案框
+            c.setFont(self.font_name, 11)
+            c.drawString(x + 10, y - 48, "(          )")
 
         elif op == 'div':
             dividend, divisor = question.numbers[:2]
 
-            # 除法竖式
-            c.drawString(x, y, str(divisor))
-            c.drawString(x + 30, y, f") {dividend}")
+            # 除法竖式（标准格式，参考教材）
+            divisor_str = str(divisor)
+            dividend_str = str(dividend)
 
-            # 商的位置横线
-            dividend_len = len(str(dividend))
-            c.line(x + 25, y + 5, x + 25 + dividend_len * 8, y + 5)
+            c.setFont(self.font_name, 14)  # 稍大的字体
+
+            # 除数（左边）
+            divisor_width = len(divisor_str) * 10
+            c.drawString(x - 15, y, divisor_str)
+
+            # 竖线（分隔除数和被除数）
+            c.setLineWidth(1.5)
+            c.line(x + divisor_width - 10, y - 8, x + divisor_width - 10, y + 25)
+
+            # 被除数（右边，每个数字之间加空格）
+            dividend_with_spaces = ' '.join(list(dividend_str))
+            dividend_x = x + divisor_width - 5
+            c.drawString(dividend_x, y, dividend_with_spaces)
+
+            # 横线（在被除数上方）
+            dividend_total_width = len(dividend_with_spaces) * 7
+            c.line(x + divisor_width - 10, y + 20,
+                   x + divisor_width - 10 + dividend_total_width, y + 20)
+            c.setLineWidth(1)
 
             # 商的答案框（在横线上方）
-            c.drawString(x + 30, y + 12, "(          )")
+            c.setFont(self.font_name, 10)
+            c.drawString(dividend_x, y + 25, "(          )")
 
     def _draw_fill_questions(self, c: canvas.Canvas, questions: List, y: float) -> float:
         """绘制填空题"""

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_operations.py:*)",
+      "Bash(python test_question_types.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
